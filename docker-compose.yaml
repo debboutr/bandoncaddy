@@ -1,0 +1,21 @@
+services:
+
+    app:
+      build: .
+      image: deadmilk:latest
+      container_name: caddy
+      environment:
+        - PYTHONUNBUFFERED=1
+      restart: always
+      command: python3 manage.py runserver 0.0.0.0:8000
+      stdin_open: true
+      tty: true
+      ports:
+        - "8013:8000"
+      volumes:
+        - .:/app
+        - media-data:/vol/media
+        - static-data:/vol/static
+volumes:
+  media-data:
+  static-data:
