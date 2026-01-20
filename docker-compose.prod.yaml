@@ -4,9 +4,8 @@ services:
     image: deadmilk:latest
     container_name: caddy
     init: true
-    restart: always
+    restart: unless-stopped
     volumes:
-      - ./db.sqlite3:/app/db.sqlite3
       - static-data:/vol/static
       - media-data:/vol/media
     environment:
@@ -27,12 +26,6 @@ services:
     depends_on:
       frontend:
         condition: service_started
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost"]
-      interval: 47h
-      timeout: 10s
-      retries: 3
-      start_period: 40s
 
   certbot:
     image: certbot/certbot
@@ -40,10 +33,7 @@ services:
     volumes:
       - ./certbot/conf:/etc/letsencrypt
       - ./certbot/www:/var/www/certbot
-    command: certonly --webroot -w /var/www/certbot --keep-until-expiring --email debboutr@gmail.com -d deadmilkfarms.com --agree-tos
-    depends_on:
-      frontend-proxy:
-        condition: service_healthy
+    command: certonly --webroot -w /var/www/certbot --keep-until-expiring --email debboutr@gmail.com -d debbout.info --agree-tos
 
 volumes:
   media-data:
