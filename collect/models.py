@@ -49,7 +49,6 @@ class Loop(models.Model):
     bags = models.FloatField(validators=[validate_bags])
     group = models.ForeignKey(Group, on_delete=models.CASCADE)
     course = models.ForeignKey(Course, on_delete=models.CASCADE)
-    day = models.ForeignKey(Day, on_delete=models.CASCADE)
 
     def __str__(self):
         return f"{self.group.name.capitalize()} -- {self.date}"

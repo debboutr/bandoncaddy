@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Django Project{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{% url 'hello' %}">Home</a>
+            <a href="{% url 'hello' %}">About</a>
+            <a href="{% url 'hello' %}">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        <!-- Default content or empty block -->
+        {% endblock %}
+    </main>
+
+    <footer>
+        &copy; {% now 'Y' %} My Django Project. All rights reserved.
+    </footer>
+</body>
+</html>   

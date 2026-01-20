@@ -6,7 +6,7 @@ services:
       container_name: caddy
       environment:
         - PYTHONUNBUFFERED=1
-      restart: always
+      restart: unless-stopped
       command: python3 manage.py runserver 0.0.0.0:8000
       stdin_open: true
       tty: true
