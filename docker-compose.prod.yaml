@@ -1,7 +1,7 @@
 services:
   frontend:
     build: .
-    image: caddy:latest
+    image: deadmilk:latest
     container_name: caddy
     init: true
     restart: unless-stopped
