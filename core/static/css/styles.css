@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; /* or any desired height */
+  background-color: seagreen;
+  font-size: 1.3em;
+}   
+
+.form-fields input[type=text] {
+  border-radius: 5px;
+  border: 2px solid #2d9fd9;
+  color: #a0d18c;
+  font-size: 1.8em;
+}
+
+.form-fields input[type=text]:focus {
+  outline: none;
+  border: 1px solid #a0d18c;
+  color: #2d9fd9;
+}   
+
+.form-fields input::placeholder {
+  text-indent: 10px;
+}
+
+.toast-container {
+  position:fixed;
+  top: 1rem;
+  right: 1.5rem;
+  display: grid;
+  justify-items: end;
+  gap: 1.5rem;
+}
+
+.toast {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0.5em 1em;
+  background-color: rgba(189, 183,107, 24);
+  border-radius: 5px;
+  animation: toastIt 3000ms cubic-bezier(0.785, 0.135, 0.15, 0.86) forwards;
+}
+
+@keyframes toastIt {
+  0%, 100% {
+    transform: translateY(-150%);
+    opacity: 0;
+  }
+  10%, 90% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

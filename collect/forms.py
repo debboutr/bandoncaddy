@@ -1,3 +1,4 @@
+from datetime import date
 from django import forms
 from .models import Course, Group, Loop, Person
 
@@ -5,6 +6,12 @@ class LoopForm(forms.ModelForm):
     class Meta:
         model = Loop
         exclude = ["author",]
+
+    def __init__(self, user, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields['date'].initial = date.today()
+        self.fields['date'].widget.attrs.update({'type': 'date'})   
+        self.fields['group'].queryset = Group.objects.filter(author=user)   
 
 class GroupForm(forms.ModelForm):
     class Meta:
@@ -17,18 +24,14 @@ class PersonForm(forms.ModelForm):
         model = Person
         fields = "__all__"
         widgets = {
-                "first_name": forms.TextInput(attrs={"placeholder": "player's name"}),
-                }
+            "first_name": forms.TextInput(attrs={"placeholder": "player's name"}),
+            'lat': forms.HiddenInput(),
+            'lon': forms.HiddenInput(),
+        }
 
-    # def save(self, commit=True):
-    #     instance = super().save(commit=False)
-    #     print(f"{dir(instance)=}")
-    #     import pdb
-    #     pdb.set_trace()
-    #     if not instance.group:
-    #         group = Group.objects.create(name=instance.first_name,
-    #                              author=self.request.user)
-    #     instance.group = group
-    #     if commit:
-    #         instance.save()
-    #     return instance   
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        for field in self.fields.values():
+            print(f"{field.help_text=}")
+            if field.help_text:
+                field.widget.attrs['placeholder'] = field.help_text   

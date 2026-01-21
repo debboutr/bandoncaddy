@@ -28,9 +28,9 @@ class Group(models.Model):
 
 
 class Person(models.Model):
-    first_name = models.CharField(max_length=200)
-    last_name = models.CharField(max_length=200, null=False, blank=True)
-    notes = models.CharField(max_length=200, null=False, blank=True)
+    first_name = models.CharField(help_text="first name", max_length=200)
+    last_name = models.CharField(help_text="last name", max_length=200, null=False, blank=True)
+    notes = models.CharField(help_text="notes...", max_length=200, null=False, blank=True)
     lat = models.CharField(max_length=200, null=False, blank=True)
     lon = models.CharField(max_length=200, null=False, blank=True)
     image = models.FileField(upload_to="uploads/people/", null=False, blank=True)

@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
+    {% if messages %}
+      <div class="toast-container">
+	{% for message in messages %}
+	  <div class="toast">{{ message }}</div>
+	{% endfor %}
+      </div>
+    {% endif %}
     <header>
         <nav>
             <a href="{% url 'home' %}">Home</a>
@@ -20,21 +27,13 @@
 	    {% if user.is_superuser %}
 		<a href="{% url 'admin:index' %}">Admin</a>
 	    {% endif %}
+	    {% if user %}
+		{{ user.get_username }}
+	    {% endif %}
         </nav>
     </header>
 
-    <main>
-        {% if messages %}
-	  {% for message in messages %}
-	    {{ message }}
-	  {% endfor %}
-        {% endif %}
-
-        {% if user %}
-	{{ user.get_username }}
-        {% else %}
-	hello
-        {% endif %}
+    <main class="container">
 
         {% block content %}
         <!-- Default content or empty block -->

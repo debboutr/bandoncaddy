@@ -4,8 +4,10 @@ from django.shortcuts import render, redirect
 from .forms import LoopForm, PersonForm
 from .models import Group
 
-def hello(request):
-   return render(request, "collect/hello.html", {})
+# @login_required(login_url='/members/login_user/')
+def home(request):
+   return render(request, "collect/home.html", {})
+
 
 def detail(request):
     ...
@@ -13,13 +15,13 @@ def detail(request):
 @login_required
 def add_work(request):
     if request.method == "POST":
-        form = LoopForm(request.POST)
+        form = LoopForm(data=request.POST, user=request.user)
         if form.is_valid():
             form.save()
             return redirect('home')
 
     else:
-        form = LoopForm()
+        form = LoopForm(user=request.user)
     return render(request, "collect/add_work.html", {'form': form})
 
 @login_required

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Collect Page{% endblock %}
+
+{% block content %}
+  {% if user.is_authenticated %}
+    <h1>Looper payment info</h1>
+    <p>A good way to track all the $$$$ you make out on the track!</p>
+    <a href="{% url 'add_work' %}">Add work</a>
+  {% else %}   
+    <a href="{% url 'login' %}">Login</a>
+    <a href="{% url 'register_user' %}">Register</a>
+  {% endif %}   
+{% endblock %}   
