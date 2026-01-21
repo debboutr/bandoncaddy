@@ -23,3 +23,6 @@ urlpatterns = [
     path('members/', include('django.contrib.auth.urls')),
     path('members/', include("members.urls")),
 ]
+
+admin.site.site_header = "bandoncaddy.org administration"
+admin.site.index_title = "you've got a good angle from over there!"
