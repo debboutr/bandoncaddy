@@ -19,17 +19,18 @@
 	  {{ field }}
 	  {{ field.errors }}
 	  {% if forloop.first %}
-	  check
 	  {% endif %}
 	  {% if forloop.last %}
-	    <button type="button" onclick="window.location='{% url 'add_person' %}'">+</button>   
+	    <button type="button" onclick="window.location='{% url 'add_person' %}'">+</button>
 	  {% endif %}
 	</p>
       {% endfor %}
       {% for hidden in form.hidden_fields %}
 	  {{ hidden }}
       {% endfor %}
-      <input type="submit" value="submit">
+      <p class="form-fields">
+      <input type="submit" class="btn" value="submit">
+      </p>
     </form>
     <script>
       let course = document.getElementById('id_course')

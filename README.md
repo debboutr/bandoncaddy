@@ -1,4 +1,5 @@
-[ ] - list only groups in select form from logged-in user
-[ ] - update user to include email
-[ ] - format base.html
-[ ] - add button to create a group/player
+- [x] list only groups in select form from logged-in user
+- [ ] update user to include email
+- [ ] format base.html
+- [x] add button to create a group/player
+- [ ] add list of recent work at /collect

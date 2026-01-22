@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: green;
+  font-size: 1.4em;
+}  
+
 img {
   height: 50px;
   width: 50px;
@@ -21,15 +28,16 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh; /* or any desired height */
   background-color: seagreen;
+  /*height: 90vh; /* or any desired height */*/
 }   
 
 .form-fields input {
   border-radius: 5px;
   border: 2px solid #2d9fd9;
   color: #a0d18c;
-  font-size: 1.8em;
+  font-size: 1.4rem;
+  width: 100%;
 }
 
 .form-fields input[type=text]:focus {
@@ -39,7 +47,20 @@ img {
 }   
 
 .form-fields input::placeholder {
-  text-indent: 10px;
+  text-indent: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
 }
 
 .toast-container {
@@ -70,4 +91,14 @@ img {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+footer {
+  position:fixed;
+  bottom: 1rem;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  gap: 1.5rem;
 }
