@@ -44,9 +44,9 @@ class Person(models.Model):
 
 
 class Loop(models.Model):
-    date = models.DateField()
     wage = models.IntegerField()
     bags = models.FloatField(validators=[validate_bags])
+    date = models.DateField()
     group = models.ForeignKey(Group, on_delete=models.CASCADE)
     course = models.ForeignKey(Course, on_delete=models.CASCADE)
     author = models.ForeignKey(settings.AUTH_USER_MODEL,

@@ -1,8 +1,8 @@
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .forms import LoopForm, PersonForm
-from .models import Course, Group
+from .models import Course, Group, Person
 
 def home(request):
    return render(request, "collect/home.html", {})
@@ -44,4 +44,18 @@ def add_person(request):
 
     else:
         form = PersonForm()
+    return render(request, "collect/add_person.html", {'form': form})
+
+@login_required
+def edit_person(request, pk):
+    person = get_object_or_404(Person, pk=pk)
+    if request.method == "POST":
+        form = PersonForm(request.POST)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "Player updated!")
+            return redirect('home')
+
+    else:
+        form = PersonForm(instance=person)
     return render(request, "collect/add_person.html", {'form': form})

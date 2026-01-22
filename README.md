@@ -3,3 +3,5 @@
 - [ ] format base.html
 - [x] add button to create a group/player
 - [ ] add list of recent work at /collect
+- [ ] add measure app
+- [ ] add football app

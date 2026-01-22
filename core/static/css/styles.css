@@ -46,8 +46,8 @@ img {
   color: #2d9fd9;
 }   
 
-.form-fields input::placeholder {
-  text-indent: 20px;
+.form-fields input {
+  text-indent: 10px;
 }
 
 .btn {
