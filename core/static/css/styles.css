@@ -1,3 +1,21 @@
+img {
+  height: 50px;
+  width: 50px;
+  padding: 4px;
+}
+
+.course-highlight {
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -5,10 +23,9 @@
   align-items: center;
   height: 90vh; /* or any desired height */
   background-color: seagreen;
-  font-size: 1.3em;
 }   
 
-.form-fields input[type=text] {
+.form-fields input {
   border-radius: 5px;
   border: 2px solid #2d9fd9;
   color: #a0d18c;

@@ -6,17 +6,15 @@ class LoopForm(forms.ModelForm):
     class Meta:
         model = Loop
         exclude = ["author",]
+        widgets = {
+            'course': forms.HiddenInput(),
+        }
 
     def __init__(self, user, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.fields['date'].initial = date.today()
         self.fields['date'].widget.attrs.update({'type': 'date'})   
         self.fields['group'].queryset = Group.objects.filter(author=user)   
-
-class GroupForm(forms.ModelForm):
-    class Meta:
-        model = Group
-        fields = "__all__"
 
 class PersonForm(forms.ModelForm):
 
