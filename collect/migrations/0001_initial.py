@@ -7,7 +7,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
     dependencies = [
@@ -16,47 +15,120 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Course',
+            name="Course",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=200)),
-                ('image', models.FileField(upload_to='uploads/courses/')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=200)),
+                ("image", models.FileField(upload_to="uploads/courses/")),
             ],
         ),
         migrations.CreateModel(
-            name='Group',
+            name="Group",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(blank=True, max_length=200, null=True)),
-                ('author', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(blank=True, max_length=200, null=True)),
+                (
+                    "author",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to=settings.AUTH_USER_MODEL,
+                    ),
+                ),
             ],
             options={
-                'ordering': ['-id'],
+                "ordering": ["-id"],
             },
         ),
         migrations.CreateModel(
-            name='Loop',
+            name="Loop",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('date', models.DateField()),
-                ('wage', models.IntegerField()),
-                ('bags', models.FloatField(validators=[collect.validators.validate_bags])),
-                ('author', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
-                ('course', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='collect.course')),
-                ('group', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='collect.group')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("date", models.DateField()),
+                ("wage", models.IntegerField()),
+                (
+                    "bags",
+                    models.FloatField(validators=[collect.validators.validate_bags]),
+                ),
+                (
+                    "author",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to=settings.AUTH_USER_MODEL,
+                    ),
+                ),
+                (
+                    "course",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE, to="collect.course"
+                    ),
+                ),
+                (
+                    "group",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE, to="collect.group"
+                    ),
+                ),
             ],
         ),
         migrations.CreateModel(
-            name='Person',
+            name="Person",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('first_name', models.CharField(help_text='first name', max_length=200)),
-                ('last_name', models.CharField(blank=True, help_text='last name', max_length=200)),
-                ('notes', models.CharField(blank=True, help_text='notes...', max_length=200)),
-                ('lat', models.CharField(blank=True, max_length=200)),
-                ('lon', models.CharField(blank=True, max_length=200)),
-                ('image', models.FileField(blank=True, upload_to='uploads/people/')),
-                ('group', models.ForeignKey(blank=True, on_delete=django.db.models.deletion.CASCADE, to='collect.group')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "first_name",
+                    models.CharField(help_text="first name", max_length=200),
+                ),
+                (
+                    "last_name",
+                    models.CharField(blank=True, help_text="last name", max_length=200),
+                ),
+                (
+                    "notes",
+                    models.CharField(blank=True, help_text="notes...", max_length=200),
+                ),
+                ("lat", models.CharField(blank=True, max_length=200)),
+                ("lon", models.CharField(blank=True, max_length=200)),
+                ("image", models.FileField(blank=True, upload_to="uploads/people/")),
+                (
+                    "group",
+                    models.ForeignKey(
+                        blank=True,
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="collect.group",
+                    ),
+                ),
             ],
         ),
     ]

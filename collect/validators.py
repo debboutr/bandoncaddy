@@ -8,5 +8,3 @@ def validate_bags(value):
             _("%(value)s is not allowable."),
             params={"value": value},
         )
-
-
