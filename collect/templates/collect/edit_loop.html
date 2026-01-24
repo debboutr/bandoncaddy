@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block title %}Add Work{% endblock %}
+
+{% block content %}
+  {% if form.errors %}
+      <div class="toast-container">
+	{% for error in form.errors %}
+	  <div class="toast">😥 There are issues with the `{{ error }}` field 🙃</div>
+	{% endfor %}
+      </div>
+  {% endif %}
+    <h1>Record your loop...</h1>
+    <div class="flex-row">
+    {% for course in courses %}
+      <img 
+	id="course-{{ course.id }}"
+	src="{{ course.image.url }}"
+	class="course"
+	data-course="{{ course.id }}"
+	alt="{{ course }}">
+    {% endfor %}
+    </div>
+    <form action="{% url 'edit_loop' pk=form.instance.id %}" method="POST">
+      {% csrf_token %}
+      {% for field in form.visible_fields %}
+	<p class="form-fields">
+	  {{ field }}
+	  {{ field.errors }}
+	  {% if forloop.first %}
+	  {% endif %}
+	  {% if forloop.last %}
+	    <button type="button" onclick="window.location='{% url 'add_person' %}'">+</button>
+	  {% endif %}
+	</p>
+      {% endfor %}
+      {% for hidden in form.hidden_fields %}
+	  {{ hidden }}
+      {% endfor %}
+      <p class="form-fields">
+      <input type="submit" class="btn" value="submit">
+      </p>
+    </form>
+    <script>
+      let dropdown = document.getElementById('id_course') // drop-down element from form
+      if (dropdown.value) {
+	let selected = document.getElementById(`course-${dropdown.value}`) // drop-down element from form
+	selected.classList.add('course-highlight')
+      }
+      document.querySelectorAll('.course').forEach(element => {
+	element.addEventListener('click', function() {
+	  // Remove the toggle class from all elements
+	  document.querySelectorAll('.course').forEach(el => {
+	    el.classList.remove('course-highlight');
+	  });
+	  // Add the toggle class to the clicked element
+	  this.classList.add('course-highlight');
+	  dropdown.value = element.dataset.course
+	});
+      });
+    </script>
+{% endblock %}   
+

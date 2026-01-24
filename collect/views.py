@@ -2,18 +2,24 @@ from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.shortcuts import render, redirect, get_object_or_404
 from .forms import LoopForm, PersonForm
-from .models import Course, Group, Person
+from .models import Course, Group, Loop, Person
+
+from datetime import timedelta
+from django.utils import timezone
 
 
 def home(request):
-    return render(request, "collect/home.html", {})
+    today = timezone.now().date()
+    week_ago = today - timedelta(days=today.weekday() + 7)
+    loops = Loop.objects.order_by('-date')[:4]   
+    return render(request, "collect/home.html", {"loops": loops})
 
 
 def detail(request): ...
 
 
 @login_required
-def add_work(request):
+def add_loop(request):
     courses = Course.objects.all()
     if request.method == "POST":
         form = LoopForm(data=request.POST, user=request.user)
@@ -25,7 +31,25 @@ def add_work(request):
 
     else:
         form = LoopForm(user=request.user)
-    return render(request, "collect/add_work.html", {"form": form, "courses": courses})
+    return render(request, "collect/add_loop.html", {"form": form, "courses": courses})
+
+@login_required
+def edit_loop(request, pk):
+    courses = Course.objects.all()
+    loop = get_object_or_404(Loop, pk=pk)
+    print(f"{loop=}")
+    if request.method == "POST":
+        form = LoopForm(data=request.POST, user=request.user)
+        form.instance.author = request.user
+        if form.is_valid():
+            form.save()
+            messages.success(request, "Loop data updated!")
+            return redirect("home")
+
+    else:
+        form = LoopForm(instance=loop, user=request.user)
+        print(f"{form=}")
+    return render(request, "collect/edit_loop.html", {"form": form, "courses": courses})
 
 
 @login_required

@@ -6,7 +6,10 @@
   {% if user.is_authenticated %}
     <h1>Looper payment info</h1>
     <p>A good way to track all the $$$$ you make out on the track!</p>
-    <a href="{% url 'add_work' %}">Add work</a>
+    {% for loop in loops %}
+    <a href="{% url 'edit_loop' pk=loop.id %}"> {{ loop.date }} </a>
+    {% endfor %}
+    <a href="{% url 'add_loop' %}">Add work</a>
   {% else %}   
     <a href="{% url 'login' %}">Login</a>
     <a href="{% url 'register_user' %}">Register</a>
