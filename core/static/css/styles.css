@@ -1,19 +1,36 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   background: green;
   font-size: 1.4em;
-}  
+}
 
-img {
-  height: 50px;
-  width: 50px;
-  padding: 4px;
+.course {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  overflow: hidden;
+  background: lightsteelblue;
+  border-radius: 50%;
+  /* this keeps the element from moving
+  when applying the class below */
+  border: 4px solid transparent;
+}
+
+.course img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .course-highlight {
-  border: 2px solid #333;
-  border-radius: 50%;
+  border: 4px solid lemonchiffon;
 }
 
 .flex-row {
@@ -30,7 +47,7 @@ img {
   align-items: center;
   background-color: seagreen;
   /*height: 90vh; /* or any desired height */*/
-}   
+}
 
 .form-fields input {
   border-radius: 5px;
@@ -44,7 +61,7 @@ img {
   outline: none;
   border: 1px solid #a0d18c;
   color: #2d9fd9;
-}   
+}
 
 .form-fields input {
   text-indent: 10px;

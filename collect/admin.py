@@ -1,14 +1,14 @@
 from django.contrib import admin
 
-from .models import Course, Group, Loop, Person
+from .models import Course, Party, Loop, Person
 
 
 @admin.register(Course)
 class CourseAdmin(admin.ModelAdmin): ...
 
 
-@admin.register(Group)
-class GroupAdmin(admin.ModelAdmin): ...
+@admin.register(Party)
+class PartyAdmin(admin.ModelAdmin): ...
 
 
 @admin.register(Loop)

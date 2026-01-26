@@ -12,12 +12,12 @@ class Course(models.Model):
         return self.name
 
 
-class Group(models.Model):
+class Party(models.Model):
     name = models.CharField(max_length=200, null=True, blank=True)
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.name.capitalize()
+        return f"{self.person_set.first()}"
 
     class Meta:
         ordering = ["-id"]
@@ -37,7 +37,7 @@ class Person(models.Model):
     lat = models.CharField(max_length=200, null=False, blank=True)
     lon = models.CharField(max_length=200, null=False, blank=True)
     image = models.FileField(upload_to="uploads/people/", null=False, blank=True)
-    group = models.ForeignKey(Group, on_delete=models.CASCADE, null=False, blank=True)
+    group = models.ForeignKey(Party, on_delete=models.CASCADE, null=False, blank=True)
 
     def __str__(self):
         if self.last_name:
@@ -47,10 +47,10 @@ class Person(models.Model):
 
 
 class Loop(models.Model):
-    wage = models.IntegerField()
-    bags = models.FloatField(validators=[validate_bags])
+    wage = models.IntegerField(help_text="$$$")
+    bags = models.FloatField(help_text="🎒🎒🎒🎒", validators=[validate_bags])
     date = models.DateField()
-    group = models.ForeignKey(Group, on_delete=models.CASCADE)
+    group = models.ForeignKey(Party, on_delete=models.CASCADE)
     course = models.ForeignKey(Course, on_delete=models.CASCADE)
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 

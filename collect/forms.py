@@ -1,6 +1,6 @@
 from datetime import date
 from django import forms
-from .models import Group, Loop, Person
+from .models import Party, Loop, Person
 
 
 class LoopForm(forms.ModelForm):
@@ -17,7 +17,12 @@ class LoopForm(forms.ModelForm):
         super().__init__(*args, **kwargs)
         self.fields["date"].initial = date.today()
         self.fields["date"].widget.attrs.update({"type": "date"})
-        self.fields["group"].queryset = Group.objects.filter(author=user)
+        self.fields["group"].queryset = Party.objects.filter(author=user).order_by(
+            "-id"
+        )[:5]
+        for field in self.fields.values():
+            if field.help_text:
+                field.widget.attrs["placeholder"] = field.help_text
 
 
 class PersonForm(forms.ModelForm):
@@ -33,6 +38,5 @@ class PersonForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         for field in self.fields.values():
-            print(f"{field.help_text=}")
             if field.help_text:
                 field.widget.attrs["placeholder"] = field.help_text

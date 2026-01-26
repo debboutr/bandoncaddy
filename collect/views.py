@@ -2,7 +2,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.shortcuts import render, redirect, get_object_or_404
 from .forms import LoopForm, PersonForm
-from .models import Course, Group, Loop, Person
+from .models import Course, Party, Loop, Person
 
 from datetime import timedelta
 from django.utils import timezone
@@ -11,7 +11,7 @@ from django.utils import timezone
 def home(request):
     today = timezone.now().date()
     week_ago = today - timedelta(days=today.weekday() + 7)
-    loops = Loop.objects.order_by('-date')[:4]   
+    loops = Loop.objects.order_by("-date")[:4]
     return render(request, "collect/home.html", {"loops": loops})
 
 
@@ -32,6 +32,7 @@ def add_loop(request):
     else:
         form = LoopForm(user=request.user)
     return render(request, "collect/add_loop.html", {"form": form, "courses": courses})
+
 
 @login_required
 def edit_loop(request, pk):
@@ -58,7 +59,8 @@ def add_person(request):
         form = PersonForm(request.POST)
         instance = form.save(commit=False)
         if not hasattr(instance, "group"):
-            group = Group.objects.create(name=instance.first_name, author=request.user)
+            full = f"{instance.first_name}-{instance.last_name}".upper()
+            group = Party.objects.create(name=full, author=request.user)
             instance.group = group
         if form.is_valid():
             form.save()
