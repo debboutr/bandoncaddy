@@ -1,7 +1,7 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
+/**, *::before, *::after {*/
+/*  box-sizing: border-box;*/
+/*}*/
+/**/
 body {
   margin: 0;
   padding: 0;
@@ -44,7 +44,6 @@ textarea {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
 }
 
 .container {
@@ -53,7 +52,18 @@ textarea {
   justify-content: center;
   align-items: center;
   background-color: seagreen;
-  /*height: 90vh; /* or any desired height */*/
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-left: 2rem;
+  width: 60px;
+  border-radius: 4px;
 }
 
 .form-fields input {
@@ -61,7 +71,6 @@ textarea {
   border: 2px solid #2d9fd9;
   color: #a0d18c;
   font-size: 1.4rem;
-  width: 100%;
 }
 
 .form-fields input[type=text]:focus {
@@ -70,8 +79,8 @@ textarea {
   color: #2d9fd9;
 }
 
-.form-fields input {
-  text-indent: 10px;
+.form-fields input::placeholder {
+  text-indent: 33px;
 }
 
 .btn {
