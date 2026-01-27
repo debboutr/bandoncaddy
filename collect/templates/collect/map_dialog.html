@@ -1,0 +1,68 @@
+<dialog id="mapModal" class="modal">
+    <div id="map"></div>
+</dialog>
+
+{% block scripts %}
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin="">
+  </script>
+  <script>
+    const mapModal = document.querySelector("#mapModal");
+
+    let opened = false;
+    function openMap () {
+      mapModal.showModal();
+      if (opened === false) {
+	var map = L.map('map').setView([39.8333, -98.5833], 3);
+
+	L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	    maxZoom: 19,
+	    attribution: ''
+	}).addTo(map);
+
+      markerLayer = L.layerGroup().addTo(map);
+
+      function onMapClick(e) {
+	  markerLayer.clearLayers();
+	  L.circleMarker(e.latlng, {
+	    color: '#f07300',
+	    fillOpacity: 0.3,
+	    opacity: 0.8,
+	    radius: 20,
+	  }).addTo(markerLayer);
+	  document.getElementById("id_lat").value = e.latlng.lat;
+	  document.getElementById("id_lon").value = e.latlng.lng;
+	  //document.getElementById("location").classList.add("border-solid", "border-2", "border-blue-600");
+      }
+
+      map.on('click', onMapClick);
+	<!--      {% if row.lat %} -->
+	<!-- L.marker([{{ row.lat }}, {{ row.lon }}]).addTo(map); -->
+	<!--      {% endif %} -->
+
+        let buttonElement = document.createElement("button");
+
+        buttonElement.innerHTML = "X";
+        buttonElement.className = 'leaflet-floating-button';
+
+        var buttonControl = L.Control.extend({
+          options: {
+            position: 'topright'
+          },
+      
+          onAdd: function () {
+            var container = L.DomUtil.create('div');
+            container.appendChild(buttonElement);
+            return container;
+          }
+        });
+      
+        // Add the control to the mapObject
+        map.addControl(new buttonControl());
+	buttonElement.onclick = () => mapModal.close();
+	opened = true;
+      };
+    }
+  </script>
+{% endblock %}
