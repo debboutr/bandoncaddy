@@ -1,10 +1,20 @@
 {% extends 'base.html' %}
 
-{% block title %}Add Person{% endblock %}
+{% block head %}
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+       crossorigin=""/>
+{% endblock %}
+
+{% block title %}Add/Edit Person{% endblock %}
 
 {% block content %}
   {% if form.errors %}
-    <p>there are issues with your form...</p>
+    <div class="toast-container">
+      {% for error in form.errors %}
+	<div class="toast">😥 There are issues with the `{{ error }}` field 🙃</div>
+      {% endfor %}
+    </div>
   {% endif %}
     <div>
       <h3>Create a new golfer...</h3>
@@ -22,5 +32,8 @@
 	  {{ hidden }}
       {% endfor %}
     </form>
+    <button> </button>
+    {% include "collect/map_dialog.html" %}
+
 {% endblock %}   
 

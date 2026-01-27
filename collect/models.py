@@ -17,7 +17,7 @@ class Party(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"{self.person_set.first()}"
+        return f"{self.person_set.first()} group"
 
     class Meta:
         ordering = ["-id"]

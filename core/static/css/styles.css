@@ -9,6 +9,13 @@ body {
   font-size: 1.4em;
 }
 
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+
 .course {
   position: relative;
   width: 3rem;
@@ -119,3 +126,14 @@ footer {
   align-items: center;
   gap: 1.5rem;
 }
+
+#map-container {
+    position: relative;
+    height: 400px; /* or any fixed or percentage height */
+    width: 100%;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}   

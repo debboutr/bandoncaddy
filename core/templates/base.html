@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}My Django Project{% endblock %}</title>
-    {% load static %}
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>{% block title %}Looper{% endblock %}</title>
+    {% block head %} {% endblock %}
 </head>
 <body>
     {% if messages %}
@@ -43,5 +44,6 @@
     <footer>
         &copy; {% now 'Y' %} bandoncaddy.org All rights reserved.
     </footer>
+    {% block scripts %} {% endblock %}
 </body>
 </html>
