@@ -32,8 +32,10 @@
 	  {{ hidden }}
       {% endfor %}
     </form>
-    <button> </button>
-    {% include "collect/map_dialog.html" %}
-
 {% endblock %}   
+
+{% block footer %} 
+  <button class="btn" onclick="openMap()">☝ </button>
+  {% include "collect/map_dialog.html" %}
+{% endblock %}
 

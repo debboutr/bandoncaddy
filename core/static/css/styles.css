@@ -76,8 +76,8 @@ textarea {
 
 .btn {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: lightblue;
+    color: red;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -127,13 +127,22 @@ footer {
   gap: 1.5rem;
 }
 
-#map-container {
-    position: relative;
-    height: 400px; /* or any fixed or percentage height */
-    width: 100%;
-}
-
 #map {
     height: 100%;
     width: 100%;
 }   
+#mapModal {
+    height: 100%;
+    width: 100%;
+    max-width: none;
+    max-height: none;
+    padding: 0;
+}
+.leaflet-floating-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -42,7 +42,9 @@
     </main>
 
     <footer>
+      {% block footer %} 
         &copy; {% now 'Y' %} bandoncaddy.org All rights reserved.
+      {% endblock %}
     </footer>
     {% block scripts %} {% endblock %}
 </body>
