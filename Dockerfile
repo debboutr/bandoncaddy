@@ -1,6 +1,6 @@
 FROM python:3.13.5-bullseye
 
-ENV TZ="America/Los_Angeles"
+ENV TZ=America/Los_Angeles
 
 WORKDIR /app
 
