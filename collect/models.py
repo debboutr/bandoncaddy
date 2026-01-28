@@ -17,7 +17,7 @@ class Party(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"{self.person_set.first()} group"
+        return f"💵{self.person_set.first()}"
 
     class Meta:
         ordering = ["-id"]
@@ -29,15 +29,15 @@ class Party(models.Model):
 class Person(models.Model):
     first_name = models.CharField(help_text="first name", max_length=200)
     last_name = models.CharField(
-        help_text="last name", max_length=200, null=False, blank=True
+        help_text="last name", max_length=200, blank=True
     )
     notes = models.CharField(
-        help_text="notes...", max_length=200, null=False, blank=True
+        help_text="notes...", max_length=200, blank=True
     )
-    lat = models.CharField(max_length=200, null=False, blank=True)
-    lon = models.CharField(max_length=200, null=False, blank=True)
-    image = models.FileField(upload_to="uploads/people/", null=False, blank=True)
-    group = models.ForeignKey(Party, on_delete=models.CASCADE, null=False, blank=True)
+    lat = models.CharField(max_length=200, blank=True)
+    lon = models.CharField(max_length=200, blank=True)
+    group = models.ForeignKey(Party, on_delete=models.CASCADE, blank=True)
+    image = models.FileField(upload_to="uploads/people/", blank=True)
 
     def __str__(self):
         if self.last_name:
