@@ -1,4 +1,4 @@
-FROM python:3.13.5-bullseye
+FROM python:3.13-slim
 
 ENV TZ=America/Los_Angeles
 

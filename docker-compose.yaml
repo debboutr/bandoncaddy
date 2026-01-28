@@ -2,7 +2,7 @@ services:
 
     app:
       build: .
-      image: deadmilk:latest
+      image: bandoncaddy:latest
       container_name: caddy
       environment:
         - PYTHONUNBUFFERED=1
