@@ -160,3 +160,7 @@ footer {
     border-radius: 5px;
     cursor: pointer;
 }
+
+h3 > span {
+  margin-left: 11rem;
+}

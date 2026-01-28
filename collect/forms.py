@@ -18,7 +18,7 @@ class LoopForm(forms.ModelForm):
         self.fields["date"].initial = date.today()
         self.fields["date"].widget.attrs.update({"type": "date"})
         self.fields["group"].queryset = Party.objects.filter(
-            pk__in=Party.objects.filter(author=user)[:3].values_list("pk")
+            pk__in=Party.objects.filter(author=user)[:5].values_list("pk")
         )
         self.fields["group"].initial = Party.objects.filter(author=user).first()
         for field in self.fields.values():
@@ -36,8 +36,12 @@ class PersonForm(forms.ModelForm):
             "lon": forms.HiddenInput(),
         }
 
-    def __init__(self, *args, **kwargs):
+    def __init__(self, user, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.fields["group"].queryset = Party.objects.filter(
+            pk__in=Party.objects.filter(author=user)[:5].values_list("pk")
+        )
+        self.fields["group"].initial = Party.objects.filter(author=user).first()
         for field in self.fields.values():
             if field.help_text:
                 field.widget.attrs["placeholder"] = field.help_text

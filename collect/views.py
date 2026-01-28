@@ -23,9 +23,7 @@ def add_loop(request):
     courses = Course.objects.all()
     if request.method == "POST":
         form = LoopForm(data=request.POST, user=request.user)
-        print("HELLO", form["group"].data)
         form.instance.author = request.user
-        print(form.instance.author)
         if form.is_valid():
             form.save()
             messages.success(request, "Loop data added successfully!")
@@ -40,7 +38,6 @@ def add_loop(request):
 def edit_loop(request, pk):
     courses = Course.objects.all()
     loop = get_object_or_404(Loop, pk=pk)
-    print(f"{loop=}")
     if request.method == "POST":
         form = LoopForm(data=request.POST, user=request.user)
         form.instance.author = request.user
@@ -51,14 +48,13 @@ def edit_loop(request, pk):
 
     else:
         form = LoopForm(instance=loop, user=request.user)
-        print(f"{form=}")
     return render(request, "collect/edit_loop.html", {"form": form, "courses": courses})
 
 
 @login_required
 def add_person(request):
     if request.method == "POST":
-        form = PersonForm(request.POST)
+        form = PersonForm(data=request.POST, user=request.user)
         instance = form.save(commit=False)
         if not hasattr(instance, "group"):
             full = f"{instance.first_name}-{instance.last_name}".upper()
@@ -70,7 +66,7 @@ def add_person(request):
             return redirect("home")
 
     else:
-        form = PersonForm()
+        form = PersonForm(user=request.user)
     return render(request, "collect/add_person.html", {"form": form})
 
 
@@ -78,12 +74,12 @@ def add_person(request):
 def edit_person(request, pk):
     person = get_object_or_404(Person, pk=pk)
     if request.method == "POST":
-        form = PersonForm(request.POST)
+        form = PersonForm(data=request.POST, user=request.user)
         if form.is_valid():
             form.save()
             messages.success(request, "Player updated!")
             return redirect("home")
 
     else:
-        form = PersonForm(instance=person)
+        form = PersonForm(instance=person, user=request.user)
     return render(request, "collect/add_person.html", {"form": form})

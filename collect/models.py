@@ -27,8 +27,8 @@ class Party(models.Model):
 
 
 class Person(models.Model):
-    first_name = models.CharField(help_text="first name", max_length=200)
-    last_name = models.CharField(help_text="last name", max_length=200, blank=True)
+    first_name = models.CharField(help_text="📛 first", max_length=200)
+    last_name = models.CharField(help_text="👔 last", max_length=200, blank=True)
     notes = models.CharField(help_text="notes...", max_length=200, blank=True)
     lat = models.CharField(max_length=200, blank=True)
     lon = models.CharField(max_length=200, blank=True)
