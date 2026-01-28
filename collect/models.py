@@ -28,12 +28,8 @@ class Party(models.Model):
 
 class Person(models.Model):
     first_name = models.CharField(help_text="first name", max_length=200)
-    last_name = models.CharField(
-        help_text="last name", max_length=200, blank=True
-    )
-    notes = models.CharField(
-        help_text="notes...", max_length=200, blank=True
-    )
+    last_name = models.CharField(help_text="last name", max_length=200, blank=True)
+    notes = models.CharField(help_text="notes...", max_length=200, blank=True)
     lat = models.CharField(max_length=200, blank=True)
     lon = models.CharField(max_length=200, blank=True)
     group = models.ForeignKey(Party, on_delete=models.CASCADE, blank=True)
@@ -56,3 +52,6 @@ class Loop(models.Model):
 
     def __str__(self):
         return f"{self.group.name.capitalize()} -- {self.date}"
+
+    class Meta:
+        ordering = ["-date"]

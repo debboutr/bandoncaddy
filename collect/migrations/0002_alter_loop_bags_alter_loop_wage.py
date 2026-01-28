@@ -5,20 +5,21 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('collect', '0001_initial'),
+        ("collect", "0001_initial"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='loop',
-            name='bags',
-            field=models.FloatField(help_text='🎒🎒🎒🎒', validators=[collect.validators.validate_bags]),
+            model_name="loop",
+            name="bags",
+            field=models.FloatField(
+                help_text="🎒🎒🎒🎒", validators=[collect.validators.validate_bags]
+            ),
         ),
         migrations.AlterField(
-            model_name='loop',
-            name='wage',
-            field=models.IntegerField(help_text='$$$'),
+            model_name="loop",
+            name="wage",
+            field=models.IntegerField(help_text="$$$"),
         ),
     ]

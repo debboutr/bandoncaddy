@@ -1,17 +1,17 @@
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.models import AnonymousUser
 from django.contrib import messages
 from django.shortcuts import render, redirect, get_object_or_404
 from .forms import LoopForm, PersonForm
 from .models import Course, Party, Loop, Person
 
-from datetime import timedelta
-from django.utils import timezone
-
 
 def home(request):
-    today = timezone.now().date()
-    week_ago = today - timedelta(days=today.weekday() + 7)
-    loops = Loop.objects.order_by("-date")[:4]
+    loops = (
+        []
+        if request.user == AnonymousUser()
+        else Loop.objects.filter(author=request.user)[:4]
+    )
     return render(request, "collect/home.html", {"loops": loops})
 
 
