@@ -4,7 +4,9 @@
     {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    {% get_static_prefix as static_prefix %}
+    {% now "U" as time_for_uniqueness %}
+    <link rel="stylesheet" href="{{ static_prefix }}css/styles.css?{{ time_for_uniqueness }}" >
     <title>{% block title %}Looper{% endblock %}</title>
     {% block head %} {% endblock %}
   </head>
