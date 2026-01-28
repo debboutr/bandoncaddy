@@ -4,61 +4,61 @@
 
 {% block content %}
   {% if form.errors %}
-      <div class="toast-container">
-	{% for error in form.errors %}
-	  <div class="toast">😥 There are issues with the `{{ error }}` field 🙃</div>
-	{% endfor %}
-      </div>
+    <div class="toast-container">
+      {% for error in form.errors %}
+      <div class="toast">😥 There are issues with the `{{ error }}` field 🙃</div>
+      {% endfor %}
+    </div>
   {% endif %}
-    <div class="flex-row">
+  <div class="flex-row">
     {% for course in courses %}
     <div
 	id="course-{{ course.id }}"
 	class="course"
 	data-course="{{ course.id }}"
-      >
-      <img 
+	>
+	<img 
 	src="{{ course.image.url }}"
 	alt="{{ course }}">
     </div>
     {% endfor %}
-    </div>
-    <form action="{% url 'add_loop' %}" method="POST">
-      {% csrf_token %}
-      {% for field in form.visible_fields %}
-	<p class="form-fields">
-	  {{ field }}
-	  {{ field.errors }}
-	  {% if forloop.first %}
-	  {% endif %}
-	  {% if forloop.last %}
-	    <button type="button" onclick="window.location='{% url 'add_person' %}'">+</button>
-	  {% endif %}
-	</p>
-      {% endfor %}
-      {% for hidden in form.hidden_fields %}
-	  {{ hidden }}
-      {% endfor %}
+  </div>
+  <form action="{% url 'add_loop' %}" method="POST">
+    {% csrf_token %}
+    {% for field in form.visible_fields %}
       <p class="form-fields">
-      <input type="submit" class="btn" value="submit">
+	{{ field }}
+	{{ field.errors }}
+	{% if forloop.first %}
+	{% endif %}
+	{% if forloop.last %}
+	  <button type="button" onclick="window.location='{% url 'add_person' %}'">+</button>
+	{% endif %}
       </p>
-    </form>
-    <script>
-      let dropdown = document.getElementById('id_course') // drop-down element from form
-      if (dropdown.value) {
-	let selected = document.getElementById(`course-${dropdown.value}`) // drop-down element from form
-	selected.classList.add('course-highlight')
-      }
-      document.querySelectorAll('.course').forEach(element => {
-	element.addEventListener('click', function() {
-	  // Remove the toggle class from all elements
-	  document.querySelectorAll('.course').forEach(el => {
-	    el.classList.remove('course-highlight');
-	  });
-	  // Add the toggle class to the clicked element
-	  this.classList.add('course-highlight');
-	  dropdown.value = element.dataset.course
+    {% endfor %}
+    {% for hidden in form.hidden_fields %}
+      {{ hidden }}
+    {% endfor %}
+    <p class="form-fields">
+    <input type="submit" class="btn" value="submit">
+    </p>
+  </form>
+  <script>
+    let dropdown = document.getElementById('id_course') // drop-down element from form
+    if (dropdown.value) {
+      let selected = document.getElementById(`course-${dropdown.value}`) // drop-down element from form
+      selected.classList.add('course-highlight')
+    }
+    document.querySelectorAll('.course').forEach(element => {
+      element.addEventListener('click', function() {
+	// Remove the toggle class from all elements
+	document.querySelectorAll('.course').forEach(el => {
+	  el.classList.remove('course-highlight');
 	});
+	// Add the toggle class to the clicked element
+	this.classList.add('course-highlight');
+	dropdown.value = element.dataset.course
       });
-    </script>
+    });
+  </script>
 {% endblock %}   

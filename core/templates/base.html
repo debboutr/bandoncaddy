@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
     <title>{% block title %}Looper{% endblock %}</title>
     {% block head %} {% endblock %}
-</head>
-<body>
+  </head>
+  <body>
     {% if messages %}
-      <div class="toast-container">
-	{% for message in messages %}
-	  <div class="toast">{{ message }}</div>
-	{% endfor %}
-      </div>
+    <div class="toast-container">
+      {% for message in messages %}
+      <div class="toast">{{ message }}</div>
+      {% endfor %}
+    </div>
     {% endif %}
     <header>
-        <nav class="flex-row">
-            <a href="{% url 'home' %}">Home</a>
-	    {% if user.is_authenticated %}
-	      <a href="{% url 'logout' %}">Logout</a>
-	    {% else %}
-	      <a href="{% url 'login' %}">Login</a>
-	      <a href="{% url 'register_user' %}">Register</a>
-	    {% endif %}
-	    {% if user.is_superuser %}
-		<a href="{% url 'admin:index' %}">Admin</a>
-	    {% endif %}
-	    {% if user %}
-		{{ user.get_username }}
-	    {% endif %}
-        </nav>
+      <nav class="flex-row">
+	<a href="{% url 'home' %}">Home</a>
+	{% if user.is_authenticated %}
+	<a href="{% url 'logout' %}">Logout</a>
+	{% else %}
+	<a href="{% url 'login' %}">Login</a>
+	<a href="{% url 'register_user' %}">Register</a>
+	{% endif %}
+	{% if user.is_superuser %}
+	<a href="{% url 'admin:index' %}">Admin</a>
+	{% endif %}
+	{% if user %}
+	{{ user.get_username }}
+	{% endif %}
+      </nav>
     </header>
 
     <main class="container">
 
-        {% block content %}
-        <!-- Default content or empty block -->
-        {% endblock %}
+      {% block content %}
+      <!-- Default content or empty block -->
+      {% endblock %}
     </main>
 
     <footer>
       {% block footer %} 
-        &copy; {% now 'Y' %} bandoncaddy.org All rights reserved.
+      &copy; {% now 'Y' %} bandoncaddy.org All rights reserved.
       {% endblock %}
     </footer>
     {% block scripts %} {% endblock %}
-</body>
+  </body>
 </html>
