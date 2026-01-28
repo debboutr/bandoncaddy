@@ -14,15 +14,14 @@ class LoopForm(forms.ModelForm):
         }
 
     def __init__(self, user, *args, **kwargs):
+        print(f"{kwargs=}")
         super().__init__(*args, **kwargs)
         self.fields["date"].initial = date.today()
         self.fields["date"].widget.attrs.update({"type": "date"})
-        self.fields["group"].queryset = Party.objects.filter(author=user).order_by(
-            "-id"
-        )[:5]
-        for field in self.fields.values():
-            if field.help_text:
-                field.widget.attrs["placeholder"] = field.help_text
+        self.fields["group"].queryset = Party.objects.filter(pk__in = Party.objects.filter(author=user)[:3].values_list('pk'))
+        # for field in self.fields.values():
+        #     if field.help_text:
+        #         field.widget.attrs["placeholder"] = field.help_text
 
 
 class PersonForm(forms.ModelForm):

@@ -23,7 +23,9 @@ def add_loop(request):
     courses = Course.objects.all()
     if request.method == "POST":
         form = LoopForm(data=request.POST, user=request.user)
+        print("HELLO", form["group"].data)
         form.instance.author = request.user
+        print(form.instance.author)
         if form.is_valid():
             form.save()
             messages.success(request, "Loop data added successfully!")
