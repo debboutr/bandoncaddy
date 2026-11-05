@@ -1,0 +1,660 @@
+- model: collect.party
+  pk: 1
+  fields:
+    name: SOLDIER-UNKNOWN
+    author: 1
+- model: collect.party
+  pk: 2
+  fields:
+    name: BARTNICK-MATT
+    author: 1
+- model: collect.party
+  pk: 3
+  fields:
+    name: SCHWEITZER-DEREK
+    author: 1
+- model: collect.party
+  pk: 4
+  fields:
+    name: CALLAHAN-PHIL
+    author: 1
+- model: collect.party
+  pk: 5
+  fields:
+    name: REYES-ROBERT
+    author: 1
+- model: collect.party
+  pk: 6
+  fields:
+    name: HAYES-WILL
+    author: 1
+- model: collect.party
+  pk: 7
+  fields:
+    name: WORDEN-JOHN
+    author: 1
+- model: collect.party
+  pk: 8
+  fields:
+    name: GOLD-KYLE
+    author: 1
+- model: collect.party
+  pk: 9
+  fields:
+    name: HARWOOD-ERIC
+    author: 1
+- model: collect.party
+  pk: 10
+  fields:
+    name: TRIP-CHIP
+    author: 1
+- model: collect.party
+  pk: 11
+  fields:
+    name: PRINCE-PRESTON
+    author: 1
+- model: collect.party
+  pk: 12
+  fields:
+    name: HOFMANN-GARY
+    author: 1
+- model: collect.party
+  pk: 13
+  fields:
+    name: VARELIA-DAN
+    author: 1
+- model: collect.party
+  pk: 14
+  fields:
+    name: MCCALLEN-JAKE
+    author: 1
+- model: collect.party
+  pk: 15
+  fields:
+    name: DAGAN-DAGAN
+    author: 1
+- model: collect.party
+  pk: 16
+  fields:
+    name: MARTINEZ-JOHNNY
+    author: 1
+- model: collect.party
+  pk: 17
+  fields:
+    name: COURTNEY-DAN
+    author: 1
+- model: collect.party
+  pk: 18
+  fields:
+    name: EAKIN-ALEX
+    author: 1
+- model: collect.party
+  pk: 19
+  fields:
+    name: SHANNON-CHRIS
+    author: 1
+- model: collect.party
+  pk: 20
+  fields:
+    name: CONNE-DAVE
+    author: 1
+- model: collect.party
+  pk: 21
+  fields:
+    name: BETHEA-TYLER
+    author: 1
+- model: collect.party
+  pk: 22
+  fields:
+    name: ANDERSON-STEVE
+    author: 1
+- model: collect.party
+  pk: 23
+  fields:
+    name: TUFTE-JACK
+    author: 1
+- model: collect.party
+  pk: 24
+  fields:
+    name: JACK-BRANDON
+    author: 1
+- model: collect.party
+  pk: 25
+  fields:
+    name: LANE-CHUCK
+    author: 1
+- model: collect.party
+  pk: 26
+  fields:
+    name: BOWER-BRANT
+    author: 1
+- model: collect.party
+  pk: 27
+  fields:
+    name: VAIL-DAN
+    author: 1
+- model: collect.party
+  pk: 28
+  fields:
+    name: KOERLIN-CHAD
+    author: 1
+- model: collect.party
+  pk: 29
+  fields:
+    name: BULLER-TOM
+    author: 1
+- model: collect.party
+  pk: 30
+  fields:
+    name: BROWN-SEBASTIAN
+    author: 1
+- model: collect.party
+  pk: 31
+  fields:
+    name: DEZELL-MARTIN
+    author: 1
+- model: collect.party
+  pk: 32
+  fields:
+    name: FOX-TYRELL
+    author: 1
+- model: collect.party
+  pk: 33
+  fields:
+    name: KAPUR-NIKHIL
+    author: 1
+- model: collect.party
+  pk: 34
+  fields:
+    name: DUFFY-MATT
+    author: 1
+- model: collect.party
+  pk: 35
+  fields:
+    name: POST-ANDREW
+    author: 1
+- model: collect.party
+  pk: 36
+  fields:
+    name: STABLES-RANDY
+    author: 1
+- model: collect.party
+  pk: 37
+  fields:
+    name: CAMARDA-JOE
+    author: 1
+- model: collect.party
+  pk: 38
+  fields:
+    name: OSGOODE-RYAN
+    author: 1
+- model: collect.party
+  pk: 39
+  fields:
+    name: HUFFMAN-BOBBY
+    author: 1
+- model: collect.party
+  pk: 40
+  fields:
+    name: DONAHUE-ANDREW
+    author: 1
+- model: collect.party
+  pk: 41
+  fields:
+    name: SAMMARCO-DAN
+    author: 1
+- model: collect.party
+  pk: 42
+  fields:
+    name: SCHULZ-STEVE
+    author: 1
+- model: collect.party
+  pk: 43
+  fields:
+    name: HANNAN-BILL
+    author: 1
+- model: collect.party
+  pk: 44
+  fields:
+    name: BHAKTA-PETER
+    author: 1
+- model: collect.party
+  pk: 45
+  fields:
+    name: GIACHIANNO-BRIAN
+    author: 1
+- model: collect.party
+  pk: 46
+  fields:
+    name: ROTERMUND-CHRIS
+    author: 1
+- model: collect.party
+  pk: 47
+  fields:
+    name: CORSE-BRANDON
+    author: 1
+- model: collect.party
+  pk: 48
+  fields:
+    name: BEAL-JASON
+    author: 1
+- model: collect.party
+  pk: 49
+  fields:
+    name: KAUFMAN-GRAHAM
+    author: 1
+- model: collect.party
+  pk: 50
+  fields:
+    name: FORLINI-MARIO
+    author: 1
+- model: collect.party
+  pk: 51
+  fields:
+    name: HORNE-JACK
+    author: 1
+- model: collect.party
+  pk: 52
+  fields:
+    name: SMITH-WILL
+    author: 1
+- model: collect.party
+  pk: 53
+  fields:
+    name: MATHERS-WILL
+    author: 1
+- model: collect.party
+  pk: 54
+  fields:
+    name: BLACKBURN-GREG
+    author: 1
+- model: collect.party
+  pk: 55
+  fields:
+    name: KOLOVSON-JEFF
+    author: 1
+- model: collect.party
+  pk: 56
+  fields:
+    name: KANG-TIM
+    author: 1
+- model: collect.party
+  pk: 57
+  fields:
+    name: AGUIAR-JASON
+    author: 1
+- model: collect.party
+  pk: 58
+  fields:
+    name: WILSON-JOHN
+    author: 1
+- model: collect.party
+  pk: 59
+  fields:
+    name: SCHWARTZ-JADEN
+    author: 1
+- model: collect.party
+  pk: 60
+  fields:
+    name: EVANS-MATT
+    author: 1
+- model: collect.party
+  pk: 61
+  fields:
+    name: ALEXANDER-JOHN
+    author: 1
+- model: collect.party
+  pk: 62
+  fields:
+    name: MOMAN-TREVOR
+    author: 1
+- model: collect.party
+  pk: 63
+  fields:
+    name: JONES-JARED
+    author: 1
+- model: collect.party
+  pk: 64
+  fields:
+    name: LIBBY-MIKE
+    author: 1
+- model: collect.party
+  pk: 65
+  fields:
+    name: BLACKBURN-JUSTIN
+    author: 1
+- model: collect.party
+  pk: 66
+  fields:
+    name: CAFFREY-BRANDON
+    author: 1
+- model: collect.party
+  pk: 67
+  fields:
+    name: MAZAN-ADAM
+    author: 1
+- model: collect.party
+  pk: 68
+  fields:
+    name: STRATTEN-KYLE
+    author: 1
+- model: collect.party
+  pk: 69
+  fields:
+    name: RENO-ROCKY
+    author: 1
+- model: collect.party
+  pk: 70
+  fields:
+    name: BAYERLEIN-KEVIN
+    author: 1
+- model: collect.party
+  pk: 71
+  fields:
+    name: BULL-LEIGH
+    author: 1
+- model: collect.party
+  pk: 72
+  fields:
+    name: STRONG-DENNIS
+    author: 1
+- model: collect.party
+  pk: 73
+  fields:
+    name: PLATT-DAN
+    author: 1
+- model: collect.party
+  pk: 74
+  fields:
+    name: -TYLER UNKNOWN
+    author: 1
+- model: collect.party
+  pk: 75
+  fields:
+    name: NOEL-JAMES
+    author: 1
+- model: collect.party
+  pk: 76
+  fields:
+    name: HUBER-COLIN
+    author: 1
+- model: collect.party
+  pk: 77
+  fields:
+    name: LEHR-RYAN
+    author: 1
+- model: collect.party
+  pk: 78
+  fields:
+    name: UNKNOWN-DENNIS
+    author: 1
+- model: collect.party
+  pk: 79
+  fields:
+    name: GORE-JIM
+    author: 1
+- model: collect.party
+  pk: 80
+  fields:
+    name: BURBACH-JORDAN
+    author: 1
+- model: collect.party
+  pk: 81
+  fields:
+    name: WAGNER-DIRK
+    author: 1
+- model: collect.party
+  pk: 82
+  fields:
+    name: UNKNOWN-CHUCK
+    author: 1
+- model: collect.party
+  pk: 83
+  fields:
+    name: WATERSTONE-KYLE
+    author: 1
+- model: collect.party
+  pk: 84
+  fields:
+    name: BIELE-GARRETT
+    author: 1
+- model: collect.party
+  pk: 85
+  fields:
+    name: BLOXHAM-BARRETT
+    author: 1
+- model: collect.party
+  pk: 86
+  fields:
+    name: ANDERSON-RALEIGH
+    author: 1
+- model: collect.party
+  pk: 87
+  fields:
+    name: UNKNOWN-GRIFF
+    author: 1
+- model: collect.party
+  pk: 88
+  fields:
+    name: UNKNOWN-RANDY
+    author: 1
+- model: collect.party
+  pk: 89
+  fields:
+    name: UNKNOWN-JOE
+    author: 1
+- model: collect.party
+  pk: 90
+  fields:
+    name: TROVATO-MATT
+    author: 1
+- model: collect.party
+  pk: 91
+  fields:
+    name: KIRSCHMAN-MIKE
+    author: 1
+- model: collect.party
+  pk: 92
+  fields:
+    name: BEAUCHAMP-BRAD
+    author: 1
+- model: collect.party
+  pk: 93
+  fields:
+    name: MERTENS-BEN
+    author: 1
+- model: collect.party
+  pk: 94
+  fields:
+    name: CRAWFORD-TOM
+    author: 1
+- model: collect.party
+  pk: 95
+  fields:
+    name: ANDERSON-CALEB
+    author: 1
+- model: collect.party
+  pk: 96
+  fields:
+    name: ROBINSON-MATT
+    author: 1
+- model: collect.party
+  pk: 97
+  fields:
+    name: MARZEN-MIKE
+    author: 1
+- model: collect.party
+  pk: 98
+  fields:
+    name: METCALF-BENSON
+    author: 1
+- model: collect.party
+  pk: 99
+  fields:
+    name: DON-JOHN
+    author: 1
+- model: collect.party
+  pk: 100
+  fields:
+    name: UNKNOWN-SEBASTIAN
+    author: 1
+- model: collect.party
+  pk: 101
+  fields:
+    name: REED-JUDSON
+    author: 1
+- model: collect.party
+  pk: 102
+  fields:
+    name: SCHILT-ERIC
+    author: 1
+- model: collect.party
+  pk: 103
+  fields:
+    name: RYBA-MATT
+    author: 1
+- model: collect.party
+  pk: 104
+  fields:
+    name: UNKNOWN-REX
+    author: 1
+- model: collect.party
+  pk: 105
+  fields:
+    name: DEI-HAI
+    author: 1
+- model: collect.party
+  pk: 106
+  fields:
+    name: STETMAN-STEVE
+    author: 1
+- model: collect.party
+  pk: 107
+  fields:
+    name: SCHNEIDER-BEN
+    author: 1
+- model: collect.party
+  pk: 108
+  fields:
+    name: KIEKAMP-PETER
+    author: 1
+- model: collect.party
+  pk: 109
+  fields:
+    name: ANTONSON-SCOTT
+    author: 1
+- model: collect.party
+  pk: 110
+  fields:
+    name: KAPLAN-TEDDY
+    author: 1
+- model: collect.party
+  pk: 111
+  fields:
+    name: TEVSH-MATT
+    author: 1
+- model: collect.party
+  pk: 112
+  fields:
+    name: TRAN-SHERMAN
+    author: 1
+- model: collect.party
+  pk: 113
+  fields:
+    name: MACKE-ALEX
+    author: 1
+- model: collect.party
+  pk: 114
+  fields:
+    name: BOYKIN-BILL
+    author: 1
+- model: collect.party
+  pk: 115
+  fields:
+    name: UNKNOWN-JACE
+    author: 1
+- model: collect.party
+  pk: 116
+  fields:
+    name: UNKNOWN-JIMBO
+    author: 1
+- model: collect.party
+  pk: 117
+  fields:
+    name: TALONE-NICK
+    author: 1
+- model: collect.party
+  pk: 118
+  fields:
+    name: JIMENEZ-PABLO
+    author: 1
+- model: collect.party
+  pk: 119
+  fields:
+    name: SHENK-BRIAN
+    author: 1
+- model: collect.party
+  pk: 120
+  fields:
+    name: NEWTON-CRAIG
+    author: 1
+- model: collect.party
+  pk: 121
+  fields:
+    name: RODGERS-JEFF
+    author: 1
+- model: collect.party
+  pk: 122
+  fields:
+    name: DECKER-CHASE
+    author: 1
+- model: collect.party
+  pk: 123
+  fields:
+    name: BURTON-DANKS
+    author: 1
+- model: collect.party
+  pk: 124
+  fields:
+    name: GODFREY-TYLER
+    author: 1
+- model: collect.party
+  pk: 125
+  fields:
+    name: ZUCOSKY-CHRIS
+    author: 1
+- model: collect.party
+  pk: 126
+  fields:
+    name: FECHO-MICHAEL
+    author: 1
+- model: collect.party
+  pk: 127
+  fields:
+    name: STRATEMEIR-DAN
+    author: 1
+- model: collect.party
+  pk: 128
+  fields:
+    name: PRUEHS-ERIC
+    author: 1
+- model: collect.party
+  pk: 129
+  fields:
+    name: BUSH-GARY
+    author: 1
+- model: collect.party
+  pk: 130
+  fields:
+    name: UNKOWN-AHMIT
+    author: 1
+- model: collect.party
+  pk: 131
+  fields:
+    name: EATON-TRAVIS
+    author: 1
+- model: collect.party
+  pk: 132
+  fields:
+    name: DUVALL-GREGORY
+    author: 1

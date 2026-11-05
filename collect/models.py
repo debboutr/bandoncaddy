@@ -1,8 +1,6 @@
 from django.conf import settings
 from django.db import models
 
-from .validators import validate_bags
-
 
 class Course(models.Model):
     name = models.CharField(max_length=200)
@@ -17,7 +15,7 @@ class Party(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"💵{self.person_set.first()}"
+        return f"{self.name}"
 
     class Meta:
         ordering = ["-id"]
@@ -43,8 +41,13 @@ class Person(models.Model):
 
 
 class Loop(models.Model):
+    MY_FLOAT_CHOICES = [
+        (1.0, "One"),
+        (1.5, "One and a Half"),
+        (2.0, "Two"),
+    ]
     wage = models.IntegerField(help_text="$$$")
-    bags = models.FloatField(help_text="🎒🎒🎒🎒", validators=[validate_bags])
+    bags = models.FloatField(choices=MY_FLOAT_CHOICES, default=2.0)
     date = models.DateField()
     group = models.ForeignKey(Party, on_delete=models.CASCADE)
     course = models.ForeignKey(Course, on_delete=models.CASCADE)

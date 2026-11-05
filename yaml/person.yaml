@@ -1,0 +1,1541 @@
+- model: collect.person
+  pk: 1
+  fields:
+    first_name: unknown
+    last_name: soldier
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 1
+    image: ''
+- model: collect.person
+  pk: 2
+  fields:
+    first_name: Matt
+    last_name: Bartnick
+    notes: ''
+    lat: '42.36313443267216'
+    lon: '-83.08413399353023'
+    group: 2
+    image: ''
+- model: collect.person
+  pk: 3
+  fields:
+    first_name: 'Dave '
+    last_name: 'Bartnick '
+    notes: ''
+    lat: '42.3369760610745'
+    lon: '-83.18892602605248'
+    group: 2
+    image: ''
+- model: collect.person
+  pk: 4
+  fields:
+    first_name: Jeff
+    last_name: Selasky
+    notes: ''
+    lat: '42.383274404901535'
+    lon: '-83.11033005202879'
+    group: 2
+    image: ''
+- model: collect.person
+  pk: 5
+  fields:
+    first_name: 'Martin '
+    last_name: Peck
+    notes: ''
+    lat: '42.327126203931286'
+    lon: '-83.10271544530089'
+    group: 2
+    image: ''
+- model: collect.person
+  pk: 6
+  fields:
+    first_name: 'Derek '
+    last_name: 'Schweitzer '
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 3
+    image: ''
+- model: collect.person
+  pk: 7
+  fields:
+    first_name: 'David '
+    last_name: 'Given '
+    notes: ''
+    lat: '47.62438860894552'
+    lon: '-122.31168808124688'
+    group: 3
+    image: ''
+- model: collect.person
+  pk: 8
+  fields:
+    first_name: Mike
+    last_name: Mikkelson
+    notes: ''
+    lat: '28.54302291313208'
+    lon: '-81.39155269521135'
+    group: 3
+    image: ''
+- model: collect.person
+  pk: 9
+  fields:
+    first_name: John
+    last_name: ''
+    notes: ''
+    lat: '44.62745816938955'
+    lon: '-123.09376010499247'
+    group: 3
+    image: ''
+- model: collect.person
+  pk: 10
+  fields:
+    first_name: Phil
+    last_name: 'Callahan '
+    notes: ''
+    lat: '42.11399469580208'
+    lon: '-87.7963343773099'
+    group: 4
+    image: ''
+- model: collect.person
+  pk: 11
+  fields:
+    first_name: Joe
+    last_name: Quirk
+    notes: ''
+    lat: '37.80607970801275'
+    lon: '-122.20246039828906'
+    group: 4
+    image: ''
+- model: collect.person
+  pk: 12
+  fields:
+    first_name: robert
+    last_name: reyes
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 5
+    image: ''
+- model: collect.person
+  pk: 13
+  fields:
+    first_name: CJ
+    last_name: ''
+    notes: ''
+    lat: '39.39921832790364'
+    lon: '-76.60129990558154'
+    group: 5
+    image: ''
+- model: collect.person
+  pk: 14
+  fields:
+    first_name: Robby
+    last_name: ''
+    notes: ''
+    lat: '47.250980024395254'
+    lon: '-122.44801487478215'
+    group: 5
+    image: ''
+- model: collect.person
+  pk: 15
+  fields:
+    first_name: Will
+    last_name: Hayes
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 6
+    image: ''
+- model: collect.person
+  pk: 16
+  fields:
+    first_name: 'Ryan '
+    last_name: Boegh
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 6
+    image: ''
+- model: collect.person
+  pk: 17
+  fields:
+    first_name: Tim
+    last_name: ''
+    notes: Poker Player 4 life!
+    lat: '39.119456549038645'
+    lon: '-94.62401820937279'
+    group: 6
+    image: ''
+- model: collect.person
+  pk: 18
+  fields:
+    first_name: John
+    last_name: Worden
+    notes: Group Master National Match Play Finals
+    lat: '37.22889325005218'
+    lon: '-121.9776805686645'
+    group: 7
+    image: ''
+- model: collect.person
+  pk: 19
+  fields:
+    first_name: John
+    last_name: ''
+    notes: ''
+    lat: '37.86767146248696'
+    lon: '-122.26390740043276'
+    group: 7
+    image: ''
+- model: collect.person
+  pk: 20
+  fields:
+    first_name: 'Anthony '
+    last_name: ''
+    notes: ''
+    lat: '37.962335361193944'
+    lon: '-122.03569405772771'
+    group: 7
+    image: ''
+- model: collect.person
+  pk: 21
+  fields:
+    first_name: kyle
+    last_name: gold
+    notes: ''
+    lat: '39.294630051853154'
+    lon: '-76.59529642689654'
+    group: 8
+    image: ''
+- model: collect.person
+  pk: 22
+  fields:
+    first_name: Eric
+    last_name: Harwood
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 9
+    image: ''
+- model: collect.person
+  pk: 23
+  fields:
+    first_name: Alex
+    last_name: 'Hardwood '
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 9
+    image: ''
+- model: collect.person
+  pk: 24
+  fields:
+    first_name: Chip
+    last_name: Trip
+    notes: these were my first two players after coming back from thanksgiving in
+      wisco!
+    lat: '33.06205395996026'
+    lon: '-112.08012841996296'
+    group: 10
+    image: ''
+- model: collect.person
+  pk: 25
+  fields:
+    first_name: 'Preston '
+    last_name: 'Prince '
+    notes: to a whiff, missed the third day!
+    lat: '37.33991599103607'
+    lon: '-121.90504241106366'
+    group: 11
+    image: ''
+- model: collect.person
+  pk: 26
+  fields:
+    first_name: Gary
+    last_name: Hofmann
+    notes: ''
+    lat: '40.58172543920099'
+    lon: '-122.38367342115379'
+    group: 12
+    image: ''
+- model: collect.person
+  pk: 27
+  fields:
+    first_name: Dan
+    last_name: 'Matthews '
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 12
+    image: ''
+- model: collect.person
+  pk: 28
+  fields:
+    first_name: dan
+    last_name: Varelia
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 13
+    image: ''
+- model: collect.person
+  pk: 29
+  fields:
+    first_name: jake
+    last_name: McCallen
+    notes: ''
+    lat: '45.50345949537662'
+    lon: '-122.62525320053102'
+    group: 14
+    image: ''
+- model: collect.person
+  pk: 30
+  fields:
+    first_name: Dagan
+    last_name: Dagan
+    notes: ''
+    lat: '35.972866132855316'
+    lon: '-83.93897742033006'
+    group: 15
+    image: ''
+- model: collect.person
+  pk: 31
+  fields:
+    first_name: johnny
+    last_name: martinez
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 16
+    image: ''
+- model: collect.person
+  pk: 32
+  fields:
+    first_name: dan
+    last_name: courtney
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 17
+    image: ''
+- model: collect.person
+  pk: 33
+  fields:
+    first_name: alex
+    last_name: eakin
+    notes: ''
+    lat: '39.18117526158749'
+    lon: '-84.33456567726165'
+    group: 18
+    image: ''
+- model: collect.person
+  pk: 34
+  fields:
+    first_name: chris
+    last_name: shannon
+    notes: ''
+    lat: '43.03677585761058'
+    lon: '-76.21312489428405'
+    group: 19
+    image: ''
+- model: collect.person
+  pk: 35
+  fields:
+    first_name: dave
+    last_name: conne
+    notes: ''
+    lat: '47.44294999517949'
+    lon: '-122.14005871934422'
+    group: 20
+    image: ''
+- model: collect.person
+  pk: 36
+  fields:
+    first_name: Tyler
+    last_name: Bethea
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 21
+    image: ''
+- model: collect.person
+  pk: 37
+  fields:
+    first_name: steve
+    last_name: anderson
+    notes: ''
+    lat: '40.78885994449482'
+    lon: '-111.86593903514036'
+    group: 22
+    image: ''
+- model: collect.person
+  pk: 38
+  fields:
+    first_name: seth
+    last_name: watson
+    notes: ''
+    lat: '40.78885994449482'
+    lon: '-111.96614150379784'
+    group: 22
+    image: ''
+- model: collect.person
+  pk: 39
+  fields:
+    first_name: Jack
+    last_name: Tufte
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 23
+    image: ''
+- model: collect.person
+  pk: 40
+  fields:
+    first_name: Joey Brandon
+    last_name: Jack
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 24
+    image: ''
+- model: collect.person
+  pk: 41
+  fields:
+    first_name: Chuck
+    last_name: Lane
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 25
+    image: ''
+- model: collect.person
+  pk: 42
+  fields:
+    first_name: Brant
+    last_name: Bower
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 26
+    image: ''
+- model: collect.person
+  pk: 43
+  fields:
+    first_name: Dan
+    last_name: Vail
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 27
+    image: ''
+- model: collect.person
+  pk: 44
+  fields:
+    first_name: chad
+    last_name: koerlin
+    notes: ''
+    lat: '39.7642140375156'
+    lon: '-104.91285976350618'
+    group: 28
+    image: ''
+- model: collect.person
+  pk: 45
+  fields:
+    first_name: Luke
+    last_name: Hoff
+    notes: ''
+    lat: '39.734650174341866'
+    lon: '-104.99077141152587'
+    group: 28
+    image: ''
+- model: collect.person
+  pk: 46
+  fields:
+    first_name: Chris
+    last_name: Rose
+    notes: ''
+    lat: '39.73253798438173'
+    lon: '-104.98824553697928'
+    group: 28
+    image: ''
+- model: collect.person
+  pk: 47
+  fields:
+    first_name: 'Tom '
+    last_name: Buller
+    notes: ''
+    lat: '39.74943369178247'
+    lon: '-104.92045720888899'
+    group: 29
+    image: ''
+- model: collect.person
+  pk: 48
+  fields:
+    first_name: 'Sebastian '
+    last_name: Brown
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 30
+    image: ''
+- model: collect.person
+  pk: 49
+  fields:
+    first_name: 'Martin '
+    last_name: Dezell
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 31
+    image: ''
+- model: collect.person
+  pk: 50
+  fields:
+    first_name: Tyrell
+    last_name: Fox
+    notes: ''
+    lat: '40.71242233323208'
+    lon: '-111.89640398559607'
+    group: 32
+    image: ''
+- model: collect.person
+  pk: 51
+  fields:
+    first_name: Nikhil
+    last_name: Kapur
+    notes: ''
+    lat: '39.703271388218866'
+    lon: '-104.93561878451509'
+    group: 33
+    image: ''
+- model: collect.person
+  pk: 52
+  fields:
+    first_name: Matt
+    last_name: 'Duffy '
+    notes: ''
+    lat: '40.633845207432266'
+    lon: '-111.91490046514622'
+    group: 34
+    image: ''
+- model: collect.person
+  pk: 53
+  fields:
+    first_name: 'Andrew '
+    last_name: Post
+    notes: ''
+    lat: '33.96220575285861'
+    lon: '-117.84966040934522'
+    group: 35
+    image: ''
+- model: collect.person
+  pk: 54
+  fields:
+    first_name: 'Randy '
+    last_name: Stables
+    notes: ''
+    lat: '35.22107411342366'
+    lon: '-80.83722112366229'
+    group: 36
+    image: ''
+- model: collect.person
+  pk: 55
+  fields:
+    first_name: Joe
+    last_name: Camarda
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 37
+    image: ''
+- model: collect.person
+  pk: 56
+  fields:
+    first_name: Ryan
+    last_name: Osgoode
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 38
+    image: ''
+- model: collect.person
+  pk: 57
+  fields:
+    first_name: Bobby
+    last_name: 'Huffman '
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 39
+    image: ''
+- model: collect.person
+  pk: 58
+  fields:
+    first_name: 'Andrew '
+    last_name: 'Donahue '
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 40
+    image: ''
+- model: collect.person
+  pk: 59
+  fields:
+    first_name: Dan
+    last_name: Sammarco
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 41
+    image: ''
+- model: collect.person
+  pk: 60
+  fields:
+    first_name: Steve
+    last_name: Schulz
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 42
+    image: ''
+- model: collect.person
+  pk: 61
+  fields:
+    first_name: Bill
+    last_name: Hannan
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 43
+    image: ''
+- model: collect.person
+  pk: 62
+  fields:
+    first_name: Peter
+    last_name: Bhakta
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 44
+    image: ''
+- model: collect.person
+  pk: 63
+  fields:
+    first_name: 'Brian '
+    last_name: Giachianno
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 45
+    image: ''
+- model: collect.person
+  pk: 64
+  fields:
+    first_name: 'Chris '
+    last_name: Rotermund
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 46
+    image: ''
+- model: collect.person
+  pk: 65
+  fields:
+    first_name: 'Brandon '
+    last_name: Corse
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 47
+    image: ''
+- model: collect.person
+  pk: 66
+  fields:
+    first_name: Jason
+    last_name: Beal
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 48
+    image: ''
+- model: collect.person
+  pk: 67
+  fields:
+    first_name: 'Graham '
+    last_name: Kaufman
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 49
+    image: ''
+- model: collect.person
+  pk: 68
+  fields:
+    first_name: Mario
+    last_name: Forlini
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 50
+    image: ''
+- model: collect.person
+  pk: 69
+  fields:
+    first_name: Jack
+    last_name: Horne
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 51
+    image: ''
+- model: collect.person
+  pk: 70
+  fields:
+    first_name: 'Will '
+    last_name: 'Smith '
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 52
+    image: ''
+- model: collect.person
+  pk: 71
+  fields:
+    first_name: Will
+    last_name: Mathers
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 53
+    image: ''
+- model: collect.person
+  pk: 72
+  fields:
+    first_name: Greg
+    last_name: 'Blackburn '
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 54
+    image: ''
+- model: collect.person
+  pk: 73
+  fields:
+    first_name: Jeff
+    last_name: Kolovson
+    notes: Brian. Cash app. Twitter
+    lat: '40.645998769803356'
+    lon: '-111.49576345708577'
+    group: 55
+    image: ''
+- model: collect.person
+  pk: 74
+  fields:
+    first_name: Tim
+    last_name: Kang
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 56
+    image: ''
+- model: collect.person
+  pk: 75
+  fields:
+    first_name: 'Jason '
+    last_name: Aguiar
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 57
+    image: ''
+- model: collect.person
+  pk: 76
+  fields:
+    first_name: John
+    last_name: Wilson
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 58
+    image: ''
+- model: collect.person
+  pk: 77
+  fields:
+    first_name: 'Jaden '
+    last_name: 'Schwartz '
+    notes: ''
+    lat: '47.62612531785414'
+    lon: '-122.30997357051821'
+    group: 59
+    image: ''
+- model: collect.person
+  pk: 78
+  fields:
+    first_name: Matt
+    last_name: Evans
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 60
+    image: ''
+- model: collect.person
+  pk: 79
+  fields:
+    first_name: John
+    last_name: 'Alexander '
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 61
+    image: ''
+- model: collect.person
+  pk: 80
+  fields:
+    first_name: 'Trevor '
+    last_name: Moman
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 62
+    image: ''
+- model: collect.person
+  pk: 81
+  fields:
+    first_name: Jared
+    last_name: Jones
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 63
+    image: ''
+- model: collect.person
+  pk: 82
+  fields:
+    first_name: 'Mike '
+    last_name: 'Libby '
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 64
+    image: ''
+- model: collect.person
+  pk: 83
+  fields:
+    first_name: 'Justin '
+    last_name: 'Blackburn '
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 65
+    image: ''
+- model: collect.person
+  pk: 84
+  fields:
+    first_name: 'Brandon '
+    last_name: Caffrey
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 66
+    image: ''
+- model: collect.person
+  pk: 85
+  fields:
+    first_name: 'Adam '
+    last_name: Mazan
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 67
+    image: ''
+- model: collect.person
+  pk: 86
+  fields:
+    first_name: 'Kyle '
+    last_name: Stratten
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 68
+    image: ''
+- model: collect.person
+  pk: 87
+  fields:
+    first_name: 'Rocky '
+    last_name: Reno
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 69
+    image: ''
+- model: collect.person
+  pk: 88
+  fields:
+    first_name: 'Kevin '
+    last_name: Bayerlein
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 70
+    image: ''
+- model: collect.person
+  pk: 89
+  fields:
+    first_name: Leigh
+    last_name: Bull
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 71
+    image: ''
+- model: collect.person
+  pk: 90
+  fields:
+    first_name: 'Dennis '
+    last_name: 'Strong '
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 72
+    image: ''
+- model: collect.person
+  pk: 91
+  fields:
+    first_name: Dan
+    last_name: Platt
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 73
+    image: ''
+- model: collect.person
+  pk: 92
+  fields:
+    first_name: Tyler Unknown
+    last_name: ''
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 74
+    image: ''
+- model: collect.person
+  pk: 93
+  fields:
+    first_name: James
+    last_name: Noel
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 75
+    image: ''
+- model: collect.person
+  pk: 94
+  fields:
+    first_name: Colin
+    last_name: Huber
+    notes: portland
+    lat: ''
+    lon: ''
+    group: 76
+    image: ''
+- model: collect.person
+  pk: 95
+  fields:
+    first_name: Ryan
+    last_name: Lehr
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 77
+    image: ''
+- model: collect.person
+  pk: 96
+  fields:
+    first_name: Todd
+    last_name: Silliman
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 77
+    image: ''
+- model: collect.person
+  pk: 97
+  fields:
+    first_name: Brian
+    last_name: Keck
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 77
+    image: ''
+- model: collect.person
+  pk: 98
+  fields:
+    first_name: Dennis
+    last_name: Unknown
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 78
+    image: ''
+- model: collect.person
+  pk: 99
+  fields:
+    first_name: Don
+    last_name: Unkown
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 78
+    image: ''
+- model: collect.person
+  pk: 100
+  fields:
+    first_name: Jim
+    last_name: Gore
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 79
+    image: ''
+- model: collect.person
+  pk: 101
+  fields:
+    first_name: Jordan
+    last_name: Burbach
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 80
+    image: ''
+- model: collect.person
+  pk: 102
+  fields:
+    first_name: Dirk
+    last_name: Wagner
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 81
+    image: ''
+- model: collect.person
+  pk: 103
+  fields:
+    first_name: Arnie
+    last_name: Wagner
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 81
+    image: ''
+- model: collect.person
+  pk: 104
+  fields:
+    first_name: Chuck
+    last_name: Unknown
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 82
+    image: ''
+- model: collect.person
+  pk: 105
+  fields:
+    first_name: Kyle
+    last_name: Waterstone
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 83
+    image: ''
+- model: collect.person
+  pk: 106
+  fields:
+    first_name: Garrett
+    last_name: Biele
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 84
+    image: ''
+- model: collect.person
+  pk: 107
+  fields:
+    first_name: Barrett
+    last_name: Bloxham
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 85
+    image: ''
+- model: collect.person
+  pk: 108
+  fields:
+    first_name: Raleigh
+    last_name: Anderson
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 86
+    image: ''
+- model: collect.person
+  pk: 109
+  fields:
+    first_name: Griff
+    last_name: Unknown
+    notes: Manhattan Playboys
+    lat: ''
+    lon: ''
+    group: 87
+    image: ''
+- model: collect.person
+  pk: 110
+  fields:
+    first_name: Randy
+    last_name: Unknown
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 88
+    image: ''
+- model: collect.person
+  pk: 111
+  fields:
+    first_name: Joe
+    last_name: Unknown
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 89
+    image: ''
+- model: collect.person
+  pk: 112
+  fields:
+    first_name: Matt
+    last_name: Trovato
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 90
+    image: ''
+- model: collect.person
+  pk: 113
+  fields:
+    first_name: Mike
+    last_name: Kirschman
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 91
+    image: ''
+- model: collect.person
+  pk: 114
+  fields:
+    first_name: Brad
+    last_name: Beauchamp
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 92
+    image: ''
+- model: collect.person
+  pk: 115
+  fields:
+    first_name: Ben
+    last_name: Mertens
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 93
+    image: ''
+- model: collect.person
+  pk: 116
+  fields:
+    first_name: Tom
+    last_name: Crawford
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 94
+    image: ''
+- model: collect.person
+  pk: 117
+  fields:
+    first_name: Caleb
+    last_name: Anderson
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 95
+    image: ''
+- model: collect.person
+  pk: 118
+  fields:
+    first_name: Matt
+    last_name: Robinson
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 96
+    image: ''
+- model: collect.person
+  pk: 119
+  fields:
+    first_name: Mike
+    last_name: Marzen
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 97
+    image: ''
+- model: collect.person
+  pk: 120
+  fields:
+    first_name: Benson
+    last_name: Metcalf
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 98
+    image: ''
+- model: collect.person
+  pk: 121
+  fields:
+    first_name: John
+    last_name: Don
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 99
+    image: ''
+- model: collect.person
+  pk: 122
+  fields:
+    first_name: Sebastian
+    last_name: Unknown
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 100
+    image: ''
+- model: collect.person
+  pk: 123
+  fields:
+    first_name: Judson
+    last_name: Reed
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 101
+    image: ''
+- model: collect.person
+  pk: 124
+  fields:
+    first_name: Eric
+    last_name: Schilt
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 102
+    image: ''
+- model: collect.person
+  pk: 125
+  fields:
+    first_name: Matt
+    last_name: Ryba
+    notes: PGA professional championship
+    lat: ''
+    lon: ''
+    group: 103
+    image: ''
+- model: collect.person
+  pk: 126
+  fields:
+    first_name: Rex
+    last_name: Unknown
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 104
+    image: ''
+- model: collect.person
+  pk: 127
+  fields:
+    first_name: Hai
+    last_name: Dei
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 105
+    image: ''
+- model: collect.person
+  pk: 128
+  fields:
+    first_name: Steve
+    last_name: Stetman
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 106
+    image: ''
+- model: collect.person
+  pk: 129
+  fields:
+    first_name: Ben
+    last_name: Schneider
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 107
+    image: ''
+- model: collect.person
+  pk: 130
+  fields:
+    first_name: Peter
+    last_name: Kiekamp
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 108
+    image: ''
+- model: collect.person
+  pk: 131
+  fields:
+    first_name: Scott
+    last_name: Antonson
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 109
+    image: ''
+- model: collect.person
+  pk: 132
+  fields:
+    first_name: Teddy
+    last_name: Kaplan
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 110
+    image: ''
+- model: collect.person
+  pk: 133
+  fields:
+    first_name: Matt
+    last_name: Tevsh
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 111
+    image: ''
+- model: collect.person
+  pk: 134
+  fields:
+    first_name: Sherman
+    last_name: Tran
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 112
+    image: ''
+- model: collect.person
+  pk: 135
+  fields:
+    first_name: Alex
+    last_name: Macke
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 113
+    image: ''
+- model: collect.person
+  pk: 136
+  fields:
+    first_name: Bill
+    last_name: Boykin
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 114
+    image: ''
+- model: collect.person
+  pk: 137
+  fields:
+    first_name: Jace
+    last_name: Unknown
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 115
+    image: ''
+- model: collect.person
+  pk: 138
+  fields:
+    first_name: Jimbo
+    last_name: Unknown
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 116
+    image: ''
+- model: collect.person
+  pk: 139
+  fields:
+    first_name: Nick
+    last_name: Talone
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 117
+    image: ''
+- model: collect.person
+  pk: 140
+  fields:
+    first_name: Pablo
+    last_name: Jimenez
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 118
+    image: ''
+- model: collect.person
+  pk: 141
+  fields:
+    first_name: Brian
+    last_name: Shenk
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 119
+    image: ''
+- model: collect.person
+  pk: 142
+  fields:
+    first_name: Craig
+    last_name: Newton
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 120
+    image: ''
+- model: collect.person
+  pk: 143
+  fields:
+    first_name: Jeff
+    last_name: Rodgers
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 121
+    image: ''
+- model: collect.person
+  pk: 144
+  fields:
+    first_name: Chase
+    last_name: Decker
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 122
+    image: ''
+- model: collect.person
+  pk: 145
+  fields:
+    first_name: Danks
+    last_name: Burton
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 123
+    image: ''
+- model: collect.person
+  pk: 146
+  fields:
+    first_name: Tyler
+    last_name: Godfrey
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 124
+    image: ''
+- model: collect.person
+  pk: 147
+  fields:
+    first_name: Chris
+    last_name: Zucosky
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 125
+    image: ''
+- model: collect.person
+  pk: 148
+  fields:
+    first_name: Michael
+    last_name: Fecho
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 126
+    image: ''
+- model: collect.person
+  pk: 149
+  fields:
+    first_name: Dan
+    last_name: Stratemeir
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 127
+    image: ''
+- model: collect.person
+  pk: 150
+  fields:
+    first_name: Eric
+    last_name: Pruehs
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 128
+    image: ''
+- model: collect.person
+  pk: 151
+  fields:
+    first_name: Gary
+    last_name: Bush
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 129
+    image: ''
+- model: collect.person
+  pk: 152
+  fields:
+    first_name: Ahmit
+    last_name: Unkown
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 130
+    image: ''
+- model: collect.person
+  pk: 153
+  fields:
+    first_name: Travis
+    last_name: Eaton
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 131
+    image: ''
+- model: collect.person
+  pk: 154
+  fields:
+    first_name: Gregory
+    last_name: Duvall
+    notes: ''
+    lat: ''
+    lon: ''
+    group: 132
+    image: ''

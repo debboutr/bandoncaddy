@@ -1,0 +1,9180 @@
+- model: collect.loop
+  pk: 1
+  fields:
+    wage: 170
+    bags: 1.0
+    date: 2022-01-16
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 2
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-01-21
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 3
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2022-01-22
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 4
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2022-01-22
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 5
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-01-29
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 6
+  fields:
+    wage: 125
+    bags: 1.0
+    date: 2022-01-30
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 7
+  fields:
+    wage: 140
+    bags: 1.0
+    date: 2022-02-11
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 8
+  fields:
+    wage: 160
+    bags: 1.0
+    date: 2022-02-12
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 9
+  fields:
+    wage: 220
+    bags: 2.0
+    date: 2022-02-13
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 10
+  fields:
+    wage: 120
+    bags: 1.0
+    date: 2022-03-13
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 11
+  fields:
+    wage: 120
+    bags: 1.0
+    date: 2022-03-14
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 12
+  fields:
+    wage: 140
+    bags: 1.0
+    date: 2022-03-15
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 13
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2022-03-16
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 14
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2022-03-20
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 15
+  fields:
+    wage: 140
+    bags: 1.0
+    date: 2022-03-21
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 16
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2022-03-22
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 17
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-03-26
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 18
+  fields:
+    wage: 305
+    bags: 2.0
+    date: 2022-03-27
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 19
+  fields:
+    wage: 305
+    bags: 2.0
+    date: 2022-03-27
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 20
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2022-03-28
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 21
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2022-03-30
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 22
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2022-03-31
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 23
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2022-03-31
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 24
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2022-04-01
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 25
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2022-04-01
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 26
+  fields:
+    wage: 235
+    bags: 2.0
+    date: 2022-04-02
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 27
+  fields:
+    wage: 235
+    bags: 2.0
+    date: 2022-04-02
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 28
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2022-04-03
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 29
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2022-04-06
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 30
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2022-04-07
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 31
+  fields:
+    wage: 180
+    bags: 1.5
+    date: 2022-04-08
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 32
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-04-09
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 33
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-04-09
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 34
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-04-10
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 35
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-04-10
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 36
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2022-04-11
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 37
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2022-04-11
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 38
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2022-04-14
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 39
+  fields:
+    wage: 315
+    bags: 2.0
+    date: 2022-04-15
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 40
+  fields:
+    wage: 315
+    bags: 1.5
+    date: 2022-04-15
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 41
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2022-04-16
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 42
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2022-04-17
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 43
+  fields:
+    wage: 215
+    bags: 1.5
+    date: 2022-04-20
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 44
+  fields:
+    wage: 255
+    bags: 2.0
+    date: 2022-04-21
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 45
+  fields:
+    wage: 255
+    bags: 2.0
+    date: 2022-04-21
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 46
+  fields:
+    wage: 230
+    bags: 2.0
+    date: 2022-04-22
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 47
+  fields:
+    wage: 230
+    bags: 1.5
+    date: 2022-04-22
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 48
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2022-04-23
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 49
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2022-04-23
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 50
+  fields:
+    wage: 380
+    bags: 2.0
+    date: 2022-04-27
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 51
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2022-04-28
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 52
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2022-04-28
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 53
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-04-29
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 54
+  fields:
+    wage: 490
+    bags: 2.0
+    date: 2022-04-30
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 55
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-05-03
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 56
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-05-03
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 57
+  fields:
+    wage: 277
+    bags: 2.0
+    date: 2022-05-04
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 58
+  fields:
+    wage: 277
+    bags: 2.0
+    date: 2022-05-04
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 59
+  fields:
+    wage: 200
+    bags: 2.0
+    date: 2022-05-05
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 60
+  fields:
+    wage: 200
+    bags: 2.0
+    date: 2022-05-05
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 61
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2022-05-06
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 62
+  fields:
+    wage: 227
+    bags: 2.0
+    date: 2022-05-07
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 63
+  fields:
+    wage: 227
+    bags: 2.0
+    date: 2022-05-07
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 64
+  fields:
+    wage: 220
+    bags: 2.0
+    date: 2022-05-08
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 65
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2022-05-09
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 66
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-05-12
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 67
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-05-13
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 68
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-05-14
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 69
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2022-05-15
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 70
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-05-16
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 71
+  fields:
+    wage: 240
+    bags: 1.5
+    date: 2022-05-16
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 72
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2022-05-17
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 73
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2022-05-17
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 74
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2022-05-18
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 75
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2022-05-18
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 76
+  fields:
+    wage: 230
+    bags: 1.5
+    date: 2022-05-19
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 77
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-05-21
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 78
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-05-21
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 79
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2022-05-22
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 80
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2022-05-22
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 81
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2022-05-26
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 82
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-05-26
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 83
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2022-05-27
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 84
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-05-28
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 85
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2022-05-29
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 86
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2022-05-29
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 87
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2022-05-30
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 88
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2022-06-04
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 89
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2022-06-04
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 90
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2022-06-05
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 91
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2022-06-06
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 92
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2022-06-06
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 93
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2022-06-07
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 94
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2022-06-08
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 95
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2022-06-08
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 96
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-06-11
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 97
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-06-11
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 98
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2022-06-12
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 99
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-06-13
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 100
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-06-18
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 101
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-06-19
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 102
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-06-20
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 103
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2022-06-21
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 104
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2022-06-21
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 105
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-06-22
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 106
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2022-06-23
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 107
+  fields:
+    wage: 210
+    bags: 2.0
+    date: 2022-06-24
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 108
+  fields:
+    wage: 210
+    bags: 1.0
+    date: 2022-06-24
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 109
+  fields:
+    wage: 255
+    bags: 2.0
+    date: 2022-06-25
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 110
+  fields:
+    wage: 255
+    bags: 2.0
+    date: 2022-06-25
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 111
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-06-26
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 112
+  fields:
+    wage: 120
+    bags: 1.0
+    date: 2022-06-27
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 113
+  fields:
+    wage: 220
+    bags: 1.0
+    date: 2022-07-01
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 114
+  fields:
+    wage: 200
+    bags: 2.0
+    date: 2022-07-02
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 115
+  fields:
+    wage: 200
+    bags: 2.0
+    date: 2022-07-02
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 116
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2022-07-03
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 117
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2022-07-03
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 118
+  fields:
+    wage: 190
+    bags: 1.0
+    date: 2022-07-09
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 119
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-07-10
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 120
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-07-10
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 121
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2022-07-11
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 122
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2022-07-12
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 123
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2022-07-13
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 124
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2022-07-14
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 125
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2022-07-15
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 126
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2022-07-15
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 127
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-07-16
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 128
+  fields:
+    wage: 225
+    bags: 2.0
+    date: 2022-07-17
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 129
+  fields:
+    wage: 225
+    bags: 2.0
+    date: 2022-07-17
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 130
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-07-18
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 131
+  fields:
+    wage: 255
+    bags: 2.0
+    date: 2022-07-19
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 132
+  fields:
+    wage: 255
+    bags: 2.0
+    date: 2022-07-19
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 133
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-07-20
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 134
+  fields:
+    wage: 120
+    bags: 1.0
+    date: 2022-07-23
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 135
+  fields:
+    wage: 120
+    bags: 1.0
+    date: 2022-07-24
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 136
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-07-26
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 137
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-07-27
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 138
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-07-27
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 139
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-07-28
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 140
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2022-07-29
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 141
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2022-07-29
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 142
+  fields:
+    wage: 220
+    bags: 2.0
+    date: 2022-07-30
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 143
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2022-07-31
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 144
+  fields:
+    wage: 265
+    bags: 1.5
+    date: 2022-07-31
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 145
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-08-06
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 146
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-08-07
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 147
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-08-07
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 148
+  fields:
+    wage: 225
+    bags: 2.0
+    date: 2022-08-08
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 149
+  fields:
+    wage: 225
+    bags: 2.0
+    date: 2022-08-08
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 150
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-08-10
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 151
+  fields:
+    wage: 227
+    bags: 2.0
+    date: 2022-08-11
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 152
+  fields:
+    wage: 227
+    bags: 1.5
+    date: 2022-08-11
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 153
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-08-13
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 154
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-08-14
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 155
+  fields:
+    wage: 247
+    bags: 2.0
+    date: 2022-08-15
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 156
+  fields:
+    wage: 247
+    bags: 2.0
+    date: 2022-08-15
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 157
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-08-16
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 158
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-08-17
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 159
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-08-17
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 160
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-08-18
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 161
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-08-21
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 162
+  fields:
+    wage: 245
+    bags: 2.0
+    date: 2022-08-22
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 163
+  fields:
+    wage: 245
+    bags: 2.0
+    date: 2022-08-22
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 164
+  fields:
+    wage: 267
+    bags: 2.0
+    date: 2022-08-23
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 165
+  fields:
+    wage: 267
+    bags: 2.0
+    date: 2022-08-23
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 166
+  fields:
+    wage: 230
+    bags: 1.5
+    date: 2022-08-24
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 167
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-08-25
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 168
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-08-26
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 169
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-08-26
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 170
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-08-27
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 171
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-08-28
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 172
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-08-30
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 173
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2022-08-31
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 174
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2022-08-31
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 175
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-09-01
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 176
+  fields:
+    wage: 170
+    bags: 1.0
+    date: 2022-09-03
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 177
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2022-09-04
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 178
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2022-09-05
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 179
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2022-09-05
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 180
+  fields:
+    wage: 410
+    bags: 2.0
+    date: 2022-09-06
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 181
+  fields:
+    wage: 410
+    bags: 2.0
+    date: 2022-09-06
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 182
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2022-09-07
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 183
+  fields:
+    wage: 295
+    bags: 2.0
+    date: 2022-09-11
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 184
+  fields:
+    wage: 295
+    bags: 2.0
+    date: 2022-09-11
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 185
+  fields:
+    wage: 295
+    bags: 2.0
+    date: 2022-09-12
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 186
+  fields:
+    wage: 295
+    bags: 2.0
+    date: 2022-09-12
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 187
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2022-09-13
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 188
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2022-09-13
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 189
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-09-16
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 190
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-09-16
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 191
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-09-17
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 192
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-09-17
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 193
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2022-09-18
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 194
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-09-21
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 195
+  fields:
+    wage: 180
+    bags: 2.0
+    date: 2022-09-22
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 196
+  fields:
+    wage: 180
+    bags: 1.0
+    date: 2022-09-22
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 197
+  fields:
+    wage: 180
+    bags: 1.5
+    date: 2022-09-23
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 198
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-09-24
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 199
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-09-24
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 200
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2022-09-25
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 201
+  fields:
+    wage: 270
+    bags: 1.5
+    date: 2022-09-25
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 202
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2022-09-26
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 203
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2022-09-27
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 204
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-09-28
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 205
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-09-28
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 206
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-10-03
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 207
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-10-04
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 208
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-10-05
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 209
+  fields:
+    wage: 345
+    bags: 2.0
+    date: 2022-10-06
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 210
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2022-10-07
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 211
+  fields:
+    wage: 250
+    bags: 1.5
+    date: 2022-10-07
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 212
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-10-08
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 213
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-10-08
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 214
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2022-10-09
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 215
+  fields:
+    wage: 230
+    bags: 2.0
+    date: 2022-10-13
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 216
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-10-15
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 217
+  fields:
+    wage: 285
+    bags: 2.0
+    date: 2022-10-16
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 218
+  fields:
+    wage: 285
+    bags: 2.0
+    date: 2022-10-16
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 219
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-10-17
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 220
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-10-18
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 221
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2022-10-19
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 222
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2022-10-20
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 223
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2022-10-21
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 224
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-10-22
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 225
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-10-23
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 226
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2022-10-24
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 227
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2022-10-26
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 228
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2022-10-26
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 229
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2022-10-27
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 230
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2022-10-27
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 231
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2022-10-28
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 232
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2022-10-28
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 233
+  fields:
+    wage: 580
+    bags: 2.0
+    date: 2022-10-29
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 234
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2022-10-30
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 235
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2022-10-30
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 236
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2022-10-31
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 237
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2022-10-31
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 238
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-11-01
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 239
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2022-11-01
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 240
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-11-11
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 241
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-11-11
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 242
+  fields:
+    wage: 240
+    bags: 1.5
+    date: 2022-11-12
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 243
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2022-11-13
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 244
+  fields:
+    wage: 240
+    bags: 1.0
+    date: 2022-11-13
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 245
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2022-11-18
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 246
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2022-11-19
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 247
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2022-11-20
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 248
+  fields:
+    wage: 245
+    bags: 2.0
+    date: 2022-11-23
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 249
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2022-11-24
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 250
+  fields:
+    wage: 245
+    bags: 2.0
+    date: 2022-11-25
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 251
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2022-11-26
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 252
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2022-12-10
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 253
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2022-12-11
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 254
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2022-12-11
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 255
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2022-12-12
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 256
+  fields:
+    wage: 140
+    bags: 1.0
+    date: 2022-12-30
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 257
+  fields:
+    wage: 160
+    bags: 1.0
+    date: 2022-12-31
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 258
+  fields:
+    wage: 140
+    bags: 1.0
+    date: 2023-01-07
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 259
+  fields:
+    wage: 160
+    bags: 1.0
+    date: 2023-01-06
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 260
+  fields:
+    wage: 225
+    bags: 1.0
+    date: 2023-01-09
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 261
+  fields:
+    wage: 140
+    bags: 1.0
+    date: 2023-01-10
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 262
+  fields:
+    wage: 140
+    bags: 1.0
+    date: 2023-01-11
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 263
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2023-01-13
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 264
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2023-01-14
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 265
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2023-01-15
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 266
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2023-01-16
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 267
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2023-01-22
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 268
+  fields:
+    wage: 235
+    bags: 1.0
+    date: 2023-01-27
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 269
+  fields:
+    wage: 520
+    bags: 2.0
+    date: 2023-01-28
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 270
+  fields:
+    wage: 270
+    bags: 1.0
+    date: 2023-01-29
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 271
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-02-02
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 272
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-02-03
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 273
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-02-03
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 274
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-02-04
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 275
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2023-02-17
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 276
+  fields:
+    wage: 160
+    bags: 1.0
+    date: 2023-02-18
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 277
+  fields:
+    wage: 180
+    bags: 1.0
+    date: 2023-02-19
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 278
+  fields:
+    wage: 186
+    bags: 1.0
+    date: 2023-02-20
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 279
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-03-03
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 280
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-03-04
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 281
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-03-05
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 282
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2023-03-06
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 283
+  fields:
+    wage: 140
+    bags: 1.0
+    date: 2023-03-07
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 284
+  fields:
+    wage: 140
+    bags: 1.0
+    date: 2023-03-08
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 285
+  fields:
+    wage: 140
+    bags: 1.0
+    date: 2023-03-09
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 286
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2023-03-15
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 287
+  fields:
+    wage: 380
+    bags: 2.0
+    date: 2023-03-16
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 288
+  fields:
+    wage: 200
+    bags: 1.5
+    date: 2023-03-19
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 289
+  fields:
+    wage: 235
+    bags: 2.0
+    date: 2023-03-20
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 290
+  fields:
+    wage: 235
+    bags: 2.0
+    date: 2023-03-20
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 291
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2023-03-21
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 292
+  fields:
+    wage: 210
+    bags: 2.0
+    date: 2023-03-22
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 293
+  fields:
+    wage: 210
+    bags: 1.0
+    date: 2023-03-22
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 294
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-03-25
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 295
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-03-26
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 296
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-03-26
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 297
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-03-31
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 298
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-04-01
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 299
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2023-04-03
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 300
+  fields:
+    wage: 262
+    bags: 2.0
+    date: 2023-04-05
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 301
+  fields:
+    wage: 262
+    bags: 2.0
+    date: 2023-04-05
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 302
+  fields:
+    wage: 237
+    bags: 2.0
+    date: 2023-04-06
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 303
+  fields:
+    wage: 237
+    bags: 2.0
+    date: 2023-04-06
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 304
+  fields:
+    wage: 315
+    bags: 2.0
+    date: 2023-04-09
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 305
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-04-10
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 306
+  fields:
+    wage: 305
+    bags: 2.0
+    date: 2023-04-11
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 307
+  fields:
+    wage: 305
+    bags: 2.0
+    date: 2023-04-11
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 308
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-04-12
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 309
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-04-13
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 310
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2023-04-14
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 311
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-04-15
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 312
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-04-15
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 313
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2023-04-16
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 314
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-04-17
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 315
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-04-17
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 316
+  fields:
+    wage: 375
+    bags: 2.0
+    date: 2023-04-22
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 317
+  fields:
+    wage: 375
+    bags: 2.0
+    date: 2023-04-22
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 318
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2023-04-23
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 319
+  fields:
+    wage: 305
+    bags: 2.0
+    date: 2023-04-24
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 320
+  fields:
+    wage: 305
+    bags: 2.0
+    date: 2023-04-24
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 321
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2023-04-25
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 322
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-04-26
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 323
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2023-04-27
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 324
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2023-04-27
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 325
+  fields:
+    wage: 295
+    bags: 2.0
+    date: 2023-04-28
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 326
+  fields:
+    wage: 295
+    bags: 2.0
+    date: 2023-04-28
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 327
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-04-29
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 328
+  fields:
+    wage: 160
+    bags: 1.0
+    date: 2023-04-30
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 329
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2023-05-01
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 330
+  fields:
+    wage: 225
+    bags: 2.0
+    date: 2023-05-02
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 331
+  fields:
+    wage: 225
+    bags: 1.0
+    date: 2023-05-02
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 332
+  fields:
+    wage: 220
+    bags: 1.0
+    date: 2023-05-06
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 333
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-05-07
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 334
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-05-15
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 335
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2023-05-14
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 336
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-05-16
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 337
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-05-16
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 338
+  fields:
+    wage: 315
+    bags: 2.0
+    date: 2023-05-17
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 339
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2023-05-18
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 340
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2023-05-19
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 341
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2023-05-19
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 342
+  fields:
+    wage: 370
+    bags: 2.0
+    date: 2023-05-20
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 343
+  fields:
+    wage: 440
+    bags: 2.0
+    date: 2023-05-21
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 344
+  fields:
+    wage: 247
+    bags: 2.0
+    date: 2023-05-22
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 345
+  fields:
+    wage: 247
+    bags: 2.0
+    date: 2023-05-22
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 346
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-05-23
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 347
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-05-23
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 348
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2023-05-24
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 349
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2023-05-24
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 350
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-05-25
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 351
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-05-26
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 352
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2023-05-27
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 353
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2023-05-27
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 354
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-05-28
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 355
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-05-28
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 356
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2023-05-29
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 357
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2023-05-29
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 358
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-05-30
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 359
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2023-05-31
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 360
+  fields:
+    wage: 262
+    bags: 2.0
+    date: 2023-06-01
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 361
+  fields:
+    wage: 262
+    bags: 2.0
+    date: 2023-06-01
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 362
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-06-02
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 363
+  fields:
+    wage: 245
+    bags: 2.0
+    date: 2023-06-03
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 364
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2023-06-04
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 365
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-06-08
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 366
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-06-08
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 367
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2023-06-09
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 368
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2023-06-09
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 369
+  fields:
+    wage: 285
+    bags: 2.0
+    date: 2023-06-10
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 370
+  fields:
+    wage: 285
+    bags: 2.0
+    date: 2023-06-10
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 371
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2023-06-11
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 372
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2023-06-12
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 373
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2023-06-12
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 374
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-06-13
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 375
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-06-14
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 376
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-06-14
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 377
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2023-06-15
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 378
+  fields:
+    wage: 255
+    bags: 2.0
+    date: 2023-06-18
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 379
+  fields:
+    wage: 255
+    bags: 2.0
+    date: 2023-06-18
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 380
+  fields:
+    wage: 315
+    bags: 2.0
+    date: 2023-06-19
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 381
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-06-20
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 382
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-06-20
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 383
+  fields:
+    wage: 295
+    bags: 2.0
+    date: 2023-06-21
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 384
+  fields:
+    wage: 322
+    bags: 2.0
+    date: 2023-06-22
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 385
+  fields:
+    wage: 322
+    bags: 2.0
+    date: 2023-06-22
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 386
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2023-06-23
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 387
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2023-06-24
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 388
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2023-06-24
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 389
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-06-25
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 390
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-06-25
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 391
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-06-26
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 392
+  fields:
+    wage: 275
+    bags: 1.0
+    date: 2023-06-26
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 393
+  fields:
+    wage: 190
+    bags: 1.0
+    date: 2023-06-27
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 394
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2023-06-28
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 395
+  fields:
+    wage: 240
+    bags: 1.0
+    date: 2023-06-28
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 396
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2023-06-29
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 397
+  fields:
+    wage: 227
+    bags: 2.0
+    date: 2023-06-30
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 398
+  fields:
+    wage: 227
+    bags: 1.0
+    date: 2023-06-30
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 399
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2023-07-01
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 400
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-07-02
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 401
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-07-02
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 402
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2023-07-03
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 403
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2023-07-03
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 404
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-07-04
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 405
+  fields:
+    wage: 280
+    bags: 1.0
+    date: 2023-07-04
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 406
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2023-07-05
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 407
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2023-07-05
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 408
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-07-13
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 409
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-07-14
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 410
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2023-07-16
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 411
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2023-07-16
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 412
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-07-17
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 413
+  fields:
+    wage: 220
+    bags: 2.0
+    date: 2023-07-18
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 414
+  fields:
+    wage: 220
+    bags: 1.0
+    date: 2023-07-18
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 415
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2023-07-19
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 416
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-07-20
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 417
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-07-20
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 418
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-07-22
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 419
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-07-22
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 420
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2023-07-23
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 421
+  fields:
+    wage: 285
+    bags: 2.0
+    date: 2023-07-24
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 422
+  fields:
+    wage: 285
+    bags: 2.0
+    date: 2023-07-24
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 423
+  fields:
+    wage: 285
+    bags: 2.0
+    date: 2023-07-25
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 424
+  fields:
+    wage: 285
+    bags: 2.0
+    date: 2023-07-25
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 425
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2023-07-30
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 426
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-07-31
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 427
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2023-08-01
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 428
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2023-08-01
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 429
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-08-07
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 430
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-08-07
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 431
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2023-08-09
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 432
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2023-08-09
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 433
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2023-08-10
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 434
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-08-11
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 435
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2023-08-12
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 436
+  fields:
+    wage: 200
+    bags: 1.5
+    date: 2023-08-13
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 437
+  fields:
+    wage: 297
+    bags: 2.0
+    date: 2023-08-14
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 438
+  fields:
+    wage: 297
+    bags: 2.0
+    date: 2023-08-14
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 439
+  fields:
+    wage: 150
+    bags: 2.0
+    date: 2023-08-15
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 440
+  fields:
+    wage: 150
+    bags: 2.0
+    date: 2023-08-15
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 441
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2023-08-16
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 442
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2023-08-16
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 443
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2023-08-19
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 444
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2023-08-19
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 445
+  fields:
+    wage: 225
+    bags: 2.0
+    date: 2023-08-20
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 446
+  fields:
+    wage: 225
+    bags: 1.0
+    date: 2023-08-20
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 447
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-08-31
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 448
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2023-09-01
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 449
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2023-09-01
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 450
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-09-02
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 451
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-09-04
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 452
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-09-05
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 453
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2023-09-05
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 454
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2023-09-06
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 455
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2023-09-07
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 456
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2023-09-07
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 457
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2023-09-08
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 458
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2023-09-09
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 459
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2023-09-09
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 460
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2023-09-10
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 461
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2023-09-10
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 462
+  fields:
+    wage: 475
+    bags: 2.0
+    date: 2023-09-11
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 463
+  fields:
+    wage: 475
+    bags: 2.0
+    date: 2023-09-11
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 464
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2023-09-14
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 465
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2023-09-15
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 466
+  fields:
+    wage: 327
+    bags: 2.0
+    date: 2023-09-16
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 467
+  fields:
+    wage: 327
+    bags: 2.0
+    date: 2023-09-16
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 468
+  fields:
+    wage: 380
+    bags: 2.0
+    date: 2023-09-17
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 469
+  fields:
+    wage: 380
+    bags: 2.0
+    date: 2023-09-17
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 470
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2023-09-18
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 471
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2023-09-19
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 472
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2023-09-20
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 473
+  fields:
+    wage: 500
+    bags: 2.0
+    date: 2023-09-21
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 474
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-09-22
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 475
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-09-22
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 476
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2023-09-23
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 477
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2023-09-23
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 478
+  fields:
+    wage: 262
+    bags: 2.0
+    date: 2023-09-26
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 479
+  fields:
+    wage: 262
+    bags: 1.5
+    date: 2023-09-26
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 480
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-09-27
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 481
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-09-29
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 482
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-09-30
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 483
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2023-10-01
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 484
+  fields:
+    wage: 337
+    bags: 2.0
+    date: 2023-10-02
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 485
+  fields:
+    wage: 337
+    bags: 2.0
+    date: 2023-10-02
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 486
+  fields:
+    wage: 315
+    bags: 2.0
+    date: 2023-10-05
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 487
+  fields:
+    wage: 315
+    bags: 2.0
+    date: 2023-10-05
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 488
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-10-06
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 489
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2023-10-07
+    group: 1
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 490
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2023-10-07
+    group: 1
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 491
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-10-10
+    group: 2
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 492
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2023-10-12
+    group: 2
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 493
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2023-10-12
+    group: 2
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 494
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-10-13
+    group: 2
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 495
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2023-10-14
+    group: 3
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 496
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2023-10-15
+    group: 3
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 497
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-10-16
+    group: 4
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 498
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2023-10-20
+    group: 5
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 499
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2023-10-21
+    group: 5
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 500
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2023-10-22
+    group: 5
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 501
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2023-10-24
+    group: 6
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 502
+  fields:
+    wage: 220
+    bags: 1.5
+    date: 2023-10-25
+    group: 6
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 503
+  fields:
+    wage: 240
+    bags: 1.5
+    date: 2023-10-26
+    group: 6
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 504
+  fields:
+    wage: 250
+    bags: 1.5
+    date: 2023-10-27
+    group: 6
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 505
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2023-10-29
+    group: 7
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 506
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-11-02
+    group: 8
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 507
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-11-02
+    group: 8
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 508
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-11-03
+    group: 8
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 509
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-11-04
+    group: 8
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 510
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2023-11-05
+    group: 8
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 511
+  fields:
+    wage: 185
+    bags: 1.0
+    date: 2023-11-10
+    group: 9
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 512
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-11-11
+    group: 9
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 513
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-11-12
+    group: 9
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 514
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2023-12-01
+    group: 10
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 515
+  fields:
+    wage: 125
+    bags: 1.0
+    date: 2023-12-16
+    group: 11
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 516
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2023-12-17
+    group: 11
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 517
+  fields:
+    wage: 120
+    bags: 1.0
+    date: 2023-12-31
+    group: 12
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 518
+  fields:
+    wage: 120
+    bags: 1.0
+    date: 2024-01-01
+    group: 12
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 519
+  fields:
+    wage: 120
+    bags: 1.0
+    date: 2024-01-02
+    group: 12
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 520
+  fields:
+    wage: 170
+    bags: 1.0
+    date: 2024-01-07
+    group: 13
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 521
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2024-01-08
+    group: 13
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 522
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2024-01-09
+    group: 13
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 523
+  fields:
+    wage: 180
+    bags: 1.0
+    date: 2024-01-10
+    group: 13
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 524
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2024-01-19
+    group: 14
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 525
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2024-01-20
+    group: 14
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 526
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2024-01-21
+    group: 14
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 527
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2024-01-22
+    group: 15
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 528
+  fields:
+    wage: 100
+    bags: 1.0
+    date: 2024-02-16
+    group: 16
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 529
+  fields:
+    wage: 120
+    bags: 1.0
+    date: 2024-02-17
+    group: 16
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 530
+  fields:
+    wage: 160
+    bags: 1.0
+    date: 2024-02-18
+    group: 16
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 531
+  fields:
+    wage: 120
+    bags: 1.0
+    date: 2024-02-19
+    group: 16
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 532
+  fields:
+    wage: 255
+    bags: 2.0
+    date: 2024-02-22
+    group: 17
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 533
+  fields:
+    wage: 272
+    bags: 2.0
+    date: 2024-02-23
+    group: 17
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 534
+  fields:
+    wage: 272
+    bags: 2.0
+    date: 2024-02-23
+    group: 17
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 535
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2024-02-24
+    group: 17
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 536
+  fields:
+    wage: 230
+    bags: 1.5
+    date: 2024-02-25
+    group: 17
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 537
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2024-02-29
+    group: 18
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 538
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2024-03-01
+    group: 18
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 539
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2024-03-02
+    group: 18
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 540
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2024-03-04
+    group: 19
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 541
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2024-03-14
+    group: 20
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 542
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2024-03-15
+    group: 20
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 543
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2024-03-16
+    group: 20
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 544
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2024-03-17
+    group: 20
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 545
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2024-03-23
+    group: 21
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 546
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2024-03-24
+    group: 21
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 547
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2024-03-26
+    group: 22
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 548
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2024-03-27
+    group: 22
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 549
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2024-03-27
+    group: 22
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 550
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2024-03-28
+    group: 22
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 551
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2024-03-28
+    group: 22
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 552
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-04-01
+    group: 23
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 553
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2024-04-02
+    group: 23
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 554
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2024-04-02
+    group: 23
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 555
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2024-04-03
+    group: 23
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 556
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2024-04-03
+    group: 23
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 557
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-04-04
+    group: 23
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 558
+  fields:
+    wage: 210
+    bags: 2.0
+    date: 2024-04-07
+    group: 24
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 559
+  fields:
+    wage: 210
+    bags: 1.0
+    date: 2024-04-07
+    group: 24
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 560
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2024-04-09
+    group: 25
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 561
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2024-04-10
+    group: 25
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 562
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2024-04-11
+    group: 25
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 563
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2024-04-12
+    group: 25
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 564
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2024-04-13
+    group: 25
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 565
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2024-04-14
+    group: 26
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 566
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2024-04-17
+    group: 27
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 567
+  fields:
+    wage: 262
+    bags: 2.0
+    date: 2024-04-18
+    group: 27
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 568
+  fields:
+    wage: 262
+    bags: 2.0
+    date: 2024-04-18
+    group: 27
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 569
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2024-04-19
+    group: 27
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 570
+  fields:
+    wage: 277
+    bags: 2.0
+    date: 2024-04-20
+    group: 27
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 571
+  fields:
+    wage: 277
+    bags: 2.0
+    date: 2024-04-20
+    group: 27
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 572
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2024-04-23
+    group: 28
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 573
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2024-04-23
+    group: 28
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 574
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2024-04-24
+    group: 28
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 575
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2024-04-24
+    group: 28
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 576
+  fields:
+    wage: 620
+    bags: 4.0
+    date: 2024-04-25
+    group: 28
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 577
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2024-04-27
+    group: 29
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 578
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-04-28
+    group: 29
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 579
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-04-28
+    group: 29
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 580
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-04-29
+    group: 29
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 581
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-04-29
+    group: 29
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 582
+  fields:
+    wage: 315
+    bags: 1.5
+    date: 2024-05-05
+    group: 30
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 583
+  fields:
+    wage: 460
+    bags: 2.0
+    date: 2024-05-06
+    group: 30
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 584
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2024-05-07
+    group: 30
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 585
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2024-05-07
+    group: 30
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 586
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2024-05-08
+    group: 30
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 587
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2024-05-09
+    group: 31
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 588
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-05-10
+    group: 31
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 589
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-05-10
+    group: 31
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 590
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2024-05-11
+    group: 31
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 591
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2024-05-11
+    group: 31
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 592
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-05-14
+    group: 32
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 593
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2024-05-15
+    group: 32
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 594
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2024-05-15
+    group: 32
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 595
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2024-05-16
+    group: 33
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 596
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2024-05-17
+    group: 33
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 597
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2024-05-17
+    group: 33
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 598
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2024-05-18
+    group: 33
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 599
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2024-05-21
+    group: 34
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 600
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2024-05-22
+    group: 34
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 601
+  fields:
+    wage: 290
+    bags: 1.5
+    date: 2024-05-22
+    group: 34
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 602
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2024-05-23
+    group: 34
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 603
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2024-05-24
+    group: 34
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 604
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2024-05-24
+    group: 35
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 605
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-05-25
+    group: 35
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 606
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-05-25
+    group: 35
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 607
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-05-27
+    group: 36
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 608
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-05-28
+    group: 36
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 609
+  fields:
+    wage: 287
+    bags: 2.0
+    date: 2024-05-29
+    group: 36
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 610
+  fields:
+    wage: 287
+    bags: 1.5
+    date: 2024-05-29
+    group: 36
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 611
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2024-05-30
+    group: 36
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 612
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2024-05-31
+    group: 37
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 613
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2024-05-31
+    group: 37
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 614
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2024-06-01
+    group: 37
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 615
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2024-06-01
+    group: 37
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 616
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2024-06-02
+    group: 37
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 617
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-06-05
+    group: 38
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 618
+  fields:
+    wage: 295
+    bags: 2.0
+    date: 2024-06-06
+    group: 38
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 619
+  fields:
+    wage: 295
+    bags: 2.0
+    date: 2024-06-06
+    group: 38
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 620
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-06-07
+    group: 38
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 621
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2024-06-08
+    group: 38
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 622
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-06-09
+    group: 39
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 623
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-06-10
+    group: 39
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 624
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-06-10
+    group: 39
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 625
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-06-11
+    group: 39
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 626
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-06-11
+    group: 40
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 627
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-06-12
+    group: 40
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 628
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-06-12
+    group: 40
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 629
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2024-06-13
+    group: 40
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 630
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-06-14
+    group: 40
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 631
+  fields:
+    wage: 285
+    bags: 2.0
+    date: 2024-06-15
+    group: 41
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 632
+  fields:
+    wage: 285
+    bags: 2.0
+    date: 2024-06-15
+    group: 41
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 633
+  fields:
+    wage: 272
+    bags: 2.0
+    date: 2024-06-17
+    group: 41
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 634
+  fields:
+    wage: 272
+    bags: 1.5
+    date: 2024-06-17
+    group: 41
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 635
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-06-17
+    group: 41
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 636
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-06-17
+    group: 41
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 637
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2024-06-19
+    group: 42
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 638
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2024-06-20
+    group: 43
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 639
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2024-06-20
+    group: 43
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 640
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2024-06-21
+    group: 43
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 641
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2024-06-21
+    group: 43
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 642
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2024-06-24
+    group: 44
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 643
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2024-06-25
+    group: 44
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 644
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2024-06-22
+    group: 43
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 645
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2024-06-22
+    group: 43
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 646
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-06-26
+    group: 44
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 647
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2024-06-27
+    group: 45
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 648
+  fields:
+    wage: 250
+    bags: 1.0
+    date: 2024-06-27
+    group: 45
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 649
+  fields:
+    wage: 215
+    bags: 1.5
+    date: 2024-06-28
+    group: 45
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 650
+  fields:
+    wage: 217
+    bags: 2.0
+    date: 2024-06-29
+    group: 45
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 651
+  fields:
+    wage: 217
+    bags: 1.0
+    date: 2024-06-29
+    group: 45
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 652
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-07-02
+    group: 46
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 653
+  fields:
+    wage: 295
+    bags: 2.0
+    date: 2024-07-03
+    group: 46
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 654
+  fields:
+    wage: 295
+    bags: 2.0
+    date: 2024-07-03
+    group: 46
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 655
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2024-07-04
+    group: 46
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 656
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2024-07-05
+    group: 46
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 657
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2024-07-05
+    group: 46
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 658
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-07-06
+    group: 46
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 659
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2024-07-07
+    group: 47
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 660
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2024-07-08
+    group: 47
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 661
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2024-07-09
+    group: 47
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 662
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2024-07-09
+    group: 47
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 663
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2024-07-10
+    group: 47
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 664
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2024-07-11
+    group: 48
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 665
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2024-07-11
+    group: 48
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 666
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-07-12
+    group: 48
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 667
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-07-12
+    group: 48
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 668
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2024-07-13
+    group: 48
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 669
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-07-20
+    group: 49
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 670
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-07-21
+    group: 49
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 671
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-07-21
+    group: 49
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 672
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-07-22
+    group: 49
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 673
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-07-23
+    group: 49
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 674
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-07-24
+    group: 49
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 675
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-07-24
+    group: 49
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 676
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-07-25
+    group: 50
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 677
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2024-07-26
+    group: 50
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 678
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2024-07-26
+    group: 50
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 679
+  fields:
+    wage: 335
+    bags: 2.0
+    date: 2024-07-27
+    group: 50
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 680
+  fields:
+    wage: 335
+    bags: 2.0
+    date: 2024-07-27
+    group: 50
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 681
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2024-07-29
+    group: 51
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 682
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2024-07-29
+    group: 51
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 683
+  fields:
+    wage: 285
+    bags: 2.0
+    date: 2024-07-30
+    group: 51
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 684
+  fields:
+    wage: 285
+    bags: 2.0
+    date: 2024-07-30
+    group: 51
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 685
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2024-07-31
+    group: 51
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 686
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2024-08-02
+    group: 52
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 687
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2024-08-02
+    group: 52
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 688
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-08-03
+    group: 52
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 689
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-08-03
+    group: 52
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 690
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2024-08-04
+    group: 52
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 691
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2024-08-05
+    group: 53
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 692
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-08-06
+    group: 53
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 693
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2024-08-10
+    group: 54
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 694
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2024-08-11
+    group: 54
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 695
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2024-08-12
+    group: 54
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 696
+  fields:
+    wage: 250
+    bags: 2.0
+    date: 2024-08-12
+    group: 54
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 697
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2024-08-13
+    group: 54
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 698
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2024-08-14
+    group: 54
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 699
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2024-08-14
+    group: 55
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 700
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2024-08-15
+    group: 55
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 701
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2024-08-15
+    group: 55
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 702
+  fields:
+    wage: 365
+    bags: 2.0
+    date: 2024-08-16
+    group: 55
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 703
+  fields:
+    wage: 365
+    bags: 2.0
+    date: 2024-08-16
+    group: 55
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 704
+  fields:
+    wage: 367
+    bags: 2.0
+    date: 2024-08-17
+    group: 55
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 705
+  fields:
+    wage: 367
+    bags: 2.0
+    date: 2024-08-17
+    group: 55
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 706
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2024-08-18
+    group: 56
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 707
+  fields:
+    wage: 240
+    bags: 2.0
+    date: 2024-08-18
+    group: 56
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 708
+  fields:
+    wage: 247
+    bags: 2.0
+    date: 2024-08-19
+    group: 56
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 709
+  fields:
+    wage: 247
+    bags: 2.0
+    date: 2024-08-19
+    group: 56
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 710
+  fields:
+    wage: 267
+    bags: 2.0
+    date: 2024-08-20
+    group: 56
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 711
+  fields:
+    wage: 267
+    bags: 2.0
+    date: 2024-08-20
+    group: 56
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 712
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2024-08-22
+    group: 57
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 713
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2024-08-22
+    group: 57
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 714
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2024-08-23
+    group: 57
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 715
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2024-08-23
+    group: 57
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 716
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2024-08-24
+    group: 57
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 717
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2024-08-27
+    group: 58
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 718
+  fields:
+    wage: 370
+    bags: 2.0
+    date: 2024-08-28
+    group: 58
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 719
+  fields:
+    wage: 375
+    bags: 2.0
+    date: 2024-08-29
+    group: 58
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 720
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-08-29
+    group: 59
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 721
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-08-30
+    group: 59
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 722
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-08-30
+    group: 59
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 723
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-08-31
+    group: 59
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 724
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-08-31
+    group: 59
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 725
+  fields:
+    wage: 282
+    bags: 2.0
+    date: 2024-09-01
+    group: 60
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 726
+  fields:
+    wage: 282
+    bags: 2.0
+    date: 2024-09-01
+    group: 60
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 727
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2024-09-02
+    group: 60
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 728
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2024-09-02
+    group: 60
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 729
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2024-09-03
+    group: 60
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 730
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2024-09-03
+    group: 60
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 731
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2024-09-04
+    group: 60
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 732
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2024-09-04
+    group: 60
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 733
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2024-09-05
+    group: 61
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 734
+  fields:
+    wage: 305
+    bags: 2.0
+    date: 2024-09-06
+    group: 61
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 735
+  fields:
+    wage: 305
+    bags: 2.0
+    date: 2024-09-06
+    group: 61
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 736
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2024-09-07
+    group: 61
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 737
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2024-09-07
+    group: 61
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 738
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-09-09
+    group: 62
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 739
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2024-09-19
+    group: 64
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 740
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2024-09-20
+    group: 65
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 741
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2024-09-20
+    group: 65
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 742
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2024-09-21
+    group: 65
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 743
+  fields:
+    wage: 370
+    bags: 2.0
+    date: 2024-09-22
+    group: 65
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 744
+  fields:
+    wage: 370
+    bags: 2.0
+    date: 2024-09-23
+    group: 66
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 745
+  fields:
+    wage: 370
+    bags: 2.0
+    date: 2024-09-23
+    group: 66
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 746
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2024-09-24
+    group: 66
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 747
+  fields:
+    wage: 450
+    bags: 2.0
+    date: 2024-09-25
+    group: 66
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 748
+  fields:
+    wage: 520
+    bags: 2.0
+    date: 2024-09-26
+    group: 66
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 749
+  fields:
+    wage: 520
+    bags: 2.0
+    date: 2024-09-26
+    group: 66
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 750
+  fields:
+    wage: 315
+    bags: 2.0
+    date: 2024-09-28
+    group: 67
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 751
+  fields:
+    wage: 315
+    bags: 2.0
+    date: 2024-09-28
+    group: 67
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 752
+  fields:
+    wage: 305
+    bags: 2.0
+    date: 2024-09-29
+    group: 67
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 753
+  fields:
+    wage: 305
+    bags: 2.0
+    date: 2024-09-29
+    group: 67
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 754
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2024-09-30
+    group: 68
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 755
+  fields:
+    wage: 400
+    bags: 1.0
+    date: 2024-09-30
+    group: 68
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 756
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2024-10-01
+    group: 68
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 757
+  fields:
+    wage: 350
+    bags: 1.0
+    date: 2024-10-01
+    group: 68
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 758
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2024-10-02
+    group: 69
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 759
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2024-10-04
+    group: 70
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 760
+  fields:
+    wage: 265
+    bags: 1.5
+    date: 2024-10-04
+    group: 70
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 761
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2024-10-05
+    group: 70
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 762
+  fields:
+    wage: 440
+    bags: 2.0
+    date: 2024-10-07
+    group: 70
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 763
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2024-10-07
+    group: 71
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 764
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2024-10-07
+    group: 71
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 765
+  fields:
+    wage: 205
+    bags: 1.5
+    date: 2024-10-08
+    group: 71
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 766
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2024-10-09
+    group: 71
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 767
+  fields:
+    wage: 265
+    bags: 2.0
+    date: 2024-10-10
+    group: 71
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 768
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-10-11
+    group: 72
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 769
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-10-12
+    group: 72
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 770
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-10-13
+    group: 72
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 771
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2024-10-13
+    group: 72
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 772
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2024-10-14
+    group: 72
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 773
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2024-10-14
+    group: 72
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 774
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2024-10-15
+    group: 73
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 775
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2024-10-16
+    group: 73
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 776
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2024-10-17
+    group: 73
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 777
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2024-10-18
+    group: 73
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 778
+  fields:
+    wage: 180
+    bags: 1.0
+    date: 2025-01-10
+    group: 14
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 779
+  fields:
+    wage: 160
+    bags: 1.0
+    date: 2025-01-11
+    group: 14
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 780
+  fields:
+    wage: 160
+    bags: 1.0
+    date: 2025-01-12
+    group: 14
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 781
+  fields:
+    wage: 170
+    bags: 1.0
+    date: 2025-01-13
+    group: 13
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 782
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2025-01-14
+    group: 13
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 783
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2025-01-15
+    group: 13
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 784
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2025-01-18
+    group: 74
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 785
+  fields:
+    wage: 160
+    bags: 1.0
+    date: 2025-01-20
+    group: 74
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 786
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2025-01-26
+    group: 75
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 787
+  fields:
+    wage: 230
+    bags: 1.0
+    date: 2025-01-27
+    group: 75
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 788
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2025-01-28
+    group: 75
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 789
+  fields:
+    wage: 240
+    bags: 1.0
+    date: 2025-01-29
+    group: 75
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 790
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-03-24
+    group: 76
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 791
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-03-24
+    group: 76
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 792
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-03-25
+    group: 76
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 793
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-03-27
+    group: 77
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 794
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2025-03-28
+    group: 77
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 795
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-03-28
+    group: 77
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 796
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2025-03-29
+    group: 77
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 797
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-03-29
+    group: 77
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 798
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-03-30
+    group: 78
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 799
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-03-31
+    group: 78
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 800
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-03-31
+    group: 78
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 801
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-04-01
+    group: 78
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 802
+  fields:
+    wage: 200
+    bags: 1.5
+    date: 2025-04-01
+    group: 78
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 803
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2025-04-03
+    group: 79
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 804
+  fields:
+    wage: 310
+    bags: 2.0
+    date: 2025-04-04
+    group: 79
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 805
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-04-04
+    group: 79
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 806
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-04-05
+    group: 79
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 807
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-04-05
+    group: 79
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 808
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-04-11
+    group: 80
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 809
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-04-12
+    group: 80
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 810
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-04-12
+    group: 80
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 811
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-04-20
+    group: 81
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 812
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-04-23
+    group: 82
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 813
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2025-04-24
+    group: 82
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 814
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2025-04-25
+    group: 82
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 815
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-04-25
+    group: 82
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 816
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2025-04-26
+    group: 82
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 817
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-04-26
+    group: 82
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 818
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2025-05-05
+    group: 73
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 819
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2025-05-06
+    group: 73
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 820
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2025-05-07
+    group: 73
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 821
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2025-05-08
+    group: 73
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 822
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2025-05-11
+    group: 83
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 823
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2025-05-12
+    group: 83
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 824
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2025-05-13
+    group: 83
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 825
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-05-15
+    group: 84
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 826
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2025-05-16
+    group: 84
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 827
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2025-05-16
+    group: 84
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 828
+  fields:
+    wage: 295
+    bags: 2.0
+    date: 2025-05-17
+    group: 84
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 829
+  fields:
+    wage: 295
+    bags: 2.0
+    date: 2025-05-17
+    group: 84
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 830
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2025-05-18
+    group: 84
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 831
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2025-05-19
+    group: 85
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 832
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2025-05-20
+    group: 85
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 833
+  fields:
+    wage: 285
+    bags: 2.0
+    date: 2025-05-21
+    group: 86
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 834
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-05-21
+    group: 86
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 835
+  fields:
+    wage: 335
+    bags: 2.0
+    date: 2025-05-22
+    group: 87
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 836
+  fields:
+    wage: 335
+    bags: 2.0
+    date: 2025-05-22
+    group: 87
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 837
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2025-05-23
+    group: 87
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 838
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2025-05-24
+    group: 87
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 839
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-05-25
+    group: 88
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 840
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2025-05-26
+    group: 88
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 841
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-05-27
+    group: 88
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 842
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2025-05-28
+    group: 88
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 843
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2025-06-04
+    group: 89
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 844
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2025-06-04
+    group: 89
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 845
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2025-09-19
+    group: 90
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 846
+  fields:
+    wage: 220
+    bags: 1.5
+    date: 2025-09-20
+    group: 90
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 847
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-09-21
+    group: 90
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 848
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-09-21
+    group: 90
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 849
+  fields:
+    wage: 270
+    bags: 2.0
+    date: 2025-09-22
+    group: 90
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 850
+  fields:
+    wage: 280
+    bags: 1.5
+    date: 2025-11-15
+    group: 1
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 851
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-11-22
+    group: 91
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 852
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2025-11-28
+    group: 92
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 853
+  fields:
+    wage: 370
+    bags: 2.0
+    date: 2025-11-29
+    group: 93
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 854
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2025-11-30
+    group: 93
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 855
+  fields:
+    wage: 180
+    bags: 1.0
+    date: 2025-12-04
+    group: 94
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 856
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2025-12-05
+    group: 94
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 857
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2025-12-06
+    group: 94
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 858
+  fields:
+    wage: 160
+    bags: 1.0
+    date: 2025-12-07
+    group: 94
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 859
+  fields:
+    wage: 200
+    bags: 1.5
+    date: 2025-12-15
+    group: 1
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 860
+  fields:
+    wage: 270
+    bags: 1.0
+    date: 2026-01-07
+    group: 95
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 861
+  fields:
+    wage: 250
+    bags: 1.0
+    date: 2026-01-08
+    group: 95
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 862
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2026-01-09
+    group: 14
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 863
+  fields:
+    wage: 170
+    bags: 1.0
+    date: 2026-01-10
+    group: 14
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 864
+  fields:
+    wage: 220
+    bags: 1.0
+    date: 2026-01-11
+    group: 14
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 865
+  fields:
+    wage: 150
+    bags: 1.0
+    date: 2026-01-12
+    group: 75
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 866
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2026-01-13
+    group: 75
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 867
+  fields:
+    wage: 340
+    bags: 1.0
+    date: 2026-01-14
+    group: 75
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 868
+  fields:
+    wage: 250
+    bags: 1.0
+    date: 2026-02-03
+    group: 96
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 869
+  fields:
+    wage: 250
+    bags: 1.0
+    date: 2026-02-04
+    group: 97
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 870
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2026-02-09
+    group: 98
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 871
+  fields:
+    wage: 260
+    bags: 2.0
+    date: 2026-02-13
+    group: 99
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 872
+  fields:
+    wage: 380
+    bags: 2.0
+    date: 2026-03-27
+    group: 1
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 873
+  fields:
+    wage: 275
+    bags: 2.0
+    date: 2026-03-30
+    group: 100
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 874
+  fields:
+    wage: 225
+    bags: 2.0
+    date: 2026-03-31
+    group: 100
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 875
+  fields:
+    wage: 225
+    bags: 2.0
+    date: 2026-03-31
+    group: 100
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 876
+  fields:
+    wage: 225
+    bags: 1.0
+    date: 2026-04-01
+    group: 100
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 877
+  fields:
+    wage: 225
+    bags: 1.0
+    date: 2026-04-02
+    group: 100
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 878
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-04-05
+    group: 101
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 879
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-04-06
+    group: 101
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 880
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-04-07
+    group: 101
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 881
+  fields:
+    wage: 375
+    bags: 2.0
+    date: 2026-04-08
+    group: 101
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 882
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2026-04-10
+    group: 102
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 883
+  fields:
+    wage: 335
+    bags: 2.0
+    date: 2026-04-10
+    group: 102
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 884
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2026-04-11
+    group: 102
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 885
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2026-04-11
+    group: 102
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 886
+  fields:
+    wage: 305
+    bags: 2.0
+    date: 2026-04-12
+    group: 102
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 887
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2026-04-23
+    group: 103
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 888
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2026-04-24
+    group: 103
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 889
+  fields:
+    wage: 180
+    bags: 1.0
+    date: 2026-04-25
+    group: 103
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 890
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2026-04-26
+    group: 103
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 891
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2026-04-27
+    group: 103
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 892
+  fields:
+    wage: 200
+    bags: 1.0
+    date: 2026-04-28
+    group: 103
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 893
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-05-02
+    group: 75
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 894
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-05-02
+    group: 75
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 895
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-05-03
+    group: 75
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 896
+  fields:
+    wage: 500
+    bags: 2.0
+    date: 2026-05-04
+    group: 75
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 897
+  fields:
+    wage: 450
+    bags: 2.0
+    date: 2026-05-05
+    group: 75
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 898
+  fields:
+    wage: 450
+    bags: 2.0
+    date: 2026-05-05
+    group: 75
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 899
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2026-05-13
+    group: 104
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 900
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2026-05-13
+    group: 104
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 901
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2026-05-14
+    group: 104
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 902
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2026-05-14
+    group: 104
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 903
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2026-05-15
+    group: 104
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 904
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-05-16
+    group: 104
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 905
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-05-16
+    group: 104
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 906
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2026-05-17
+    group: 105
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 907
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-05-22
+    group: 106
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 908
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-05-22
+    group: 106
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 909
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-05-23
+    group: 106
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 910
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-05-23
+    group: 106
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 911
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-05-24
+    group: 106
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 912
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-05-25
+    group: 106
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 913
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-05-25
+    group: 106
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 914
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-05-26
+    group: 106
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 915
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2026-06-02
+    group: 107
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 916
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2026-06-03
+    group: 107
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 917
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2026-06-04
+    group: 107
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 918
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2026-06-05
+    group: 107
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 919
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-06-07
+    group: 108
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 920
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-06-08
+    group: 108
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 921
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-06-09
+    group: 108
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 922
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-06-10
+    group: 108
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 923
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2026-06-11
+    group: 109
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 924
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2026-06-12
+    group: 109
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 925
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2026-06-12
+    group: 109
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 926
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2026-06-13
+    group: 109
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 927
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2026-06-14
+    group: 109
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 928
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2026-06-14
+    group: 109
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 929
+  fields:
+    wage: 280
+    bags: 2.0
+    date: 2026-06-18
+    group: 110
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 930
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2026-06-19
+    group: 110
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 931
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2026-06-20
+    group: 110
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 932
+  fields:
+    wage: 325
+    bags: 2.0
+    date: 2026-06-20
+    group: 110
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 933
+  fields:
+    wage: 410
+    bags: 2.0
+    date: 2026-06-21
+    group: 110
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 934
+  fields:
+    wage: 370
+    bags: 2.0
+    date: 2026-06-23
+    group: 111
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 935
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2026-07-13
+    group: 112
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 936
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-07-14
+    group: 112
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 937
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-07-15
+    group: 112
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 938
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2026-07-17
+    group: 113
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 939
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2026-07-17
+    group: 113
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 940
+  fields:
+    wage: 290
+    bags: 2.0
+    date: 2026-07-18
+    group: 113
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 941
+  fields:
+    wage: 375
+    bags: 2.0
+    date: 2026-07-19
+    group: 113
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 942
+  fields:
+    wage: 375
+    bags: 2.0
+    date: 2026-07-19
+    group: 113
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 943
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-07-22
+    group: 114
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 944
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-07-23
+    group: 114
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 945
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-07-24
+    group: 114
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 946
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2026-07-26
+    group: 115
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 947
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2026-07-27
+    group: 115
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 948
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-07-28
+    group: 116
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 949
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-07-29
+    group: 117
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 950
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2026-07-30
+    group: 117
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 951
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2026-07-31
+    group: 118
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 952
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2026-07-31
+    group: 118
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 953
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2026-08-01
+    group: 118
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 954
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2026-08-01
+    group: 118
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 955
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2026-08-02
+    group: 118
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 956
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2026-08-02
+    group: 118
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 957
+  fields:
+    wage: 425
+    bags: 2.0
+    date: 2026-08-03
+    group: 119
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 958
+  fields:
+    wage: 425
+    bags: 2.0
+    date: 2026-08-03
+    group: 119
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 959
+  fields:
+    wage: 425
+    bags: 2.0
+    date: 2026-08-04
+    group: 119
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 960
+  fields:
+    wage: 425
+    bags: 2.0
+    date: 2026-08-04
+    group: 119
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 961
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2026-08-05
+    group: 120
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 962
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-08-10
+    group: 121
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 963
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-08-11
+    group: 121
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 964
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-08-11
+    group: 121
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 965
+  fields:
+    wage: 390
+    bags: 2.0
+    date: 2026-08-12
+    group: 121
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 966
+  fields:
+    wage: 390
+    bags: 2.0
+    date: 2026-08-12
+    group: 121
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 967
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-08-13
+    group: 122
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 968
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-08-13
+    group: 122
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 969
+  fields:
+    wage: 275
+    bags: 1.5
+    date: 2026-08-14
+    group: 122
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 970
+  fields:
+    wage: 365
+    bags: 2.0
+    date: 2026-08-15
+    group: 122
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 971
+  fields:
+    wage: 365
+    bags: 2.0
+    date: 2026-08-15
+    group: 122
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 972
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-08-16
+    group: 122
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 973
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-08-17
+    group: 122
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 974
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-08-18
+    group: 122
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 975
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-08-20
+    group: 123
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 976
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-08-20
+    group: 123
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 977
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-08-21
+    group: 123
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 978
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-08-21
+    group: 123
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 979
+  fields:
+    wage: 380
+    bags: 2.0
+    date: 2026-08-22
+    group: 123
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 980
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-08-23
+    group: 124
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 981
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-08-25
+    group: 124
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 982
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-08-25
+    group: 124
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 983
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-08-26
+    group: 124
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 984
+  fields:
+    wage: 500
+    bags: 2.0
+    date: 2026-08-27
+    group: 124
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 985
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2026-08-29
+    group: 125
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 986
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2026-08-30
+    group: 125
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 987
+  fields:
+    wage: 330
+    bags: 2.0
+    date: 2026-09-03
+    group: 126
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 988
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-09-04
+    group: 126
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 989
+  fields:
+    wage: 345
+    bags: 2.0
+    date: 2026-09-04
+    group: 126
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 990
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2026-09-05
+    group: 126
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 991
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2026-09-05
+    group: 126
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 992
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2026-09-06
+    group: 126
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 993
+  fields:
+    wage: 350
+    bags: 2.0
+    date: 2026-09-10
+    group: 77
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 994
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-09-11
+    group: 77
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 995
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-09-11
+    group: 77
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 996
+  fields:
+    wage: 475
+    bags: 2.0
+    date: 2026-09-12
+    group: 77
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 997
+  fields:
+    wage: 475
+    bags: 2.0
+    date: 2026-09-12
+    group: 77
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 998
+  fields:
+    wage: 500
+    bags: 2.0
+    date: 2026-09-16
+    group: 127
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 999
+  fields:
+    wage: 600
+    bags: 2.0
+    date: 2026-09-17
+    group: 127
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 1000
+  fields:
+    wage: 850
+    bags: 2.0
+    date: 2026-09-18
+    group: 127
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 1001
+  fields:
+    wage: 850
+    bags: 2.0
+    date: 2026-09-18
+    group: 127
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 1002
+  fields:
+    wage: 500
+    bags: 2.0
+    date: 2026-09-19
+    group: 127
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 1003
+  fields:
+    wage: 345
+    bags: 2.0
+    date: 2026-09-23
+    group: 128
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 1004
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2026-09-24
+    group: 128
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 1005
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2026-09-24
+    group: 128
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 1006
+  fields:
+    wage: 335
+    bags: 2.0
+    date: 2026-09-25
+    group: 128
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 1007
+  fields:
+    wage: 370
+    bags: 2.0
+    date: 2026-09-26
+    group: 128
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 1008
+  fields:
+    wage: 390
+    bags: 2.0
+    date: 2026-10-02
+    group: 129
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 1009
+  fields:
+    wage: 345
+    bags: 2.0
+    date: 2026-10-03
+    group: 129
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 1010
+  fields:
+    wage: 340
+    bags: 2.0
+    date: 2026-10-03
+    group: 129
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 1011
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-10-04
+    group: 129
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 1012
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2026-10-09
+    group: 130
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 1013
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2026-10-10
+    group: 130
+    course: 5
+    author: 1
+- model: collect.loop
+  pk: 1014
+  fields:
+    wage: 300
+    bags: 2.0
+    date: 2026-10-11
+    group: 130
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 1015
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2026-10-16
+    group: 131
+    course: 4
+    author: 1
+- model: collect.loop
+  pk: 1016
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2026-10-17
+    group: 131
+    course: 3
+    author: 1
+- model: collect.loop
+  pk: 1017
+  fields:
+    wage: 400
+    bags: 2.0
+    date: 2026-10-18
+    group: 131
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 1018
+  fields:
+    wage: 345
+    bags: 2.0
+    date: 2026-10-30
+    group: 132
+    course: 2
+    author: 1
+- model: collect.loop
+  pk: 1019
+  fields:
+    wage: 320
+    bags: 2.0
+    date: 2026-10-31
+    group: 132
+    course: 1
+    author: 1
+- model: collect.loop
+  pk: 1020
+  fields:
+    wage: 360
+    bags: 2.0
+    date: 2026-11-01
+    group: 132
+    course: 5
+    author: 1

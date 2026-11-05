@@ -57,7 +57,7 @@ def add_person(request):
         form = PersonForm(data=request.POST, user=request.user)
         instance = form.save(commit=False)
         if not hasattr(instance, "group"):
-            full = f"{instance.first_name}-{instance.last_name}".upper()
+            full = f"{instance.last_name}-{instance.first_name}".upper()
             group = Party.objects.create(name=full, author=request.user)
             instance.group = group
         if form.is_valid():

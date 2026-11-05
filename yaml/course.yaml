@@ -1,0 +1,25 @@
+- model: collect.course
+  pk: 1
+  fields:
+    name: bandon
+    image: uploads/courses/bandon.png
+- model: collect.course
+  pk: 2
+  fields:
+    name: pacific
+    image: uploads/courses/pac.png
+- model: collect.course
+  pk: 3
+  fields:
+    name: trails
+    image: uploads/courses/trails.png
+- model: collect.course
+  pk: 4
+  fields:
+    name: oldmac
+    image: uploads/courses/oldmac.png
+- model: collect.course
+  pk: 5
+  fields:
+    name: sheep
+    image: uploads/courses/sheep.png
