@@ -14,7 +14,7 @@ SECRET_KEY = "django-insecure-rbd(wnd8=o=%=f+_g#)7r%q(!ver^ixjp$fh1bhez_iy0_3&$2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["debbout.info", "www.debbout.info", "192.53.167.126", "localhost"]
+ALLOWED_HOSTS = ["bandoncaddy.org", "www.bandoncaddy.org", "192.53.167.126", "localhost"]
 
 
 # Application definition
